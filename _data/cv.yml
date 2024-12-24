@@ -2,96 +2,112 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Changda Ma
+    - name: Address
+      value: 95 8th Street NW, Atlanta, Georgia, 30309
+    - name: Phone
+      value: +1(856)3284587
+    - name: Email
+      value: cma326@gatech.edu
+    - name: Research Interests
+      value: Urban Health System, Urban Risk Management System, Music Perception, Spatial Sound, Circular Economy
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+    - title: Master of Architecture
+      institution: Georgia Institute of Technology, The US
+      year: 08/2024-05/2025
+    - title: Master of Science in Architecture (High Performance Building)
+      institution: Guizhou University, China
+      year: 08/2022-05/2024
+    - title: Bachelor of Architecture
+      institution: Guizhou University, China
+      year: 09/2017-07/2022
 
-- title: Experience
+- title: Publications
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Harmonizing Emotions: An AI-Driven Sound Therapy System Design for Enhancing Mental Health of Older Adults
+      year: 2024
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+        - Published in Springer Nature Switzerland, cited by 15 (Google Scholar)
+        - DOI: https://doi.org/10.1007/978-3-031-60615-1_30
+    - title: A Study on Shape Grammar-based Creating Methods and Generative Design of Cellular Bracket on Dong Drum Towers
+      year: 2023
+      description: Published in the Academic Conference of Computational Design Professional Committee.
+    - title: Establishing a Fire Risk Map Based on Planned Spatial Layouts and Environment in Rural Planning: A Case Study of a Stereotype Village in China
+      year: 2025
+      description: Under review for the 27th International Conference on Human-Computer Interaction.
+    - title: Reimagining Chinese Garden Design: An Interactive Approach Using Stable Diffusion
+      year: 2025
+      description: Under review for CAADRIA 2025.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Research Experience
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Neuroarchitecture: Urban Built Environments' Impact on Mental Health – A Systematic Literature Review
+      institution: Georgia Institute of Technology
+      year: 08/2024-12/2024
+      description:
+        - Conducted systematic literature review using Covidence tool.
+        - Drafted Introduction and Methods sections of the paper.
+    - title: Data-Driven Fire Risk Mapping in Rural Planning: A Case Study of Stereotype Villages
+      institution: Georgia Institute of Technology
+      year: 01/2024-05/2024
+      description:
+        - Simulated spatial layouts and environmental factors for fire risk assessment using Grasshopper plugins.
+        - Developed a comprehensive fire risk map.
+    - title: Sound Therapy System Design for Enhancing Mental Health of Older Adults
+      institution: Georgia Institute of Technology
+      year: 08/2023-12/2023
+      description:
+        - Designed a sound therapy robot and guardian mobile app.
+        - Conducted music feature analysis using MATLAB.
+    - title: Generative Design and Shape Grammar for Honeycomb Arches in Dong Drum Towers
+      institution: Georgia Institute of Technology
+      year: 01/2023-05/2023
+      description:
+        - Researched Dong drum tower design and created shape grammar-based models.
 
-- title: Honors and Awards
+- title: Professional Experience
   type: time_table
   contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - title: Graduate Teaching Assistant
+      institution: Georgia Institute of Technology
+      year: 01/2024-12/2024
+      description:
+        - Conducted tutorials, created instructional content, and evaluated assignments for architecture courses.
+    - title: Lab Research Assistant
+      institution: Georgia Institute of Technology
+      year: 05/2024-07/2024
+      description:
+        - Contributed to urban design studies and 3D modeling projects.
+    - title: Architecture Internship
+      institution: Atelier Global Limited
+      year: 06/2023-08/2023
+      description: Designed renovation projects and contributed to interior rendering for exhibitions.
 
-- title: Academic Interests
+- title: Skills
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Languages
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - English (Fluent)
+        - Mandarin (Native)
+    - title: Design & Modeling
       items:
-        - Description 1.
-        - Description 2.
+        - Rhinoceros, SketchUp, AutoCAD, Revit (Master)
+    - title: Programming Languages
+      items:
+        - Python, Java, R (Master)
+        - C/C++, JavaScript (Medium)
+    - title: GIS & Spatial Analysis
+      items:
+        - ArcGIS Pro, ArcGIS Online, ArcGIS StoryMap (Master)
 
-- title: Other Interests
+- title: Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Music (Guitar, Electric Piano, Drum, Singing)
+    - Sports (Basketball)
