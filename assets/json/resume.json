@@ -1,200 +1,180 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
-    "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "name": "Changda Ma",
+    "label": "Urban and Architectural Researcher",
+    "email": "cma326@gatech.edu",
+    "phone": "+1(856)3284587",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "95 8th Street NW",
+      "postalCode": "30309",
+      "city": "Atlanta",
       "countryCode": "US",
-      "region": "California"
+      "region": "Georgia"
     },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
+    "summary": "Researcher with interests in Urban Health Systems, Urban Risk Management, Music Perception, Spatial Sound, and Circular Economy."
   },
-  "work": [
-    {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-    }
-  ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "institution": "Guizhou University",
+      "studyType": "Bachelor of Architecture",
+      "startDate": "2017-09-01",
+      "endDate": "2022-07-01",
+      "location": "China"
+    },
+    {
+      "institution": "Guizhou University",
+      "studyType": "Master of Science in Architecture (High Performance Building)",
+      "startDate": "2022-08-01",
+      "endDate": "2024-05-01",
+      "location": "China"
+    },
+    {
+      "institution": "Georgia Institute of Technology",
+      "studyType": "Master of Architecture",
+      "startDate": "2024-08-01",
+      "endDate": "2025-05-01",
+      "location": "United States"
     }
   ],
-  "awards": [
+  "work": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "name": "Georgia Institute of Technology",
+      "position": "Graduate Teaching Assistant (Integrated Building Systems II)",
+      "startDate": "2024-01-01",
+      "endDate": "2024-05-01",
+      "location": "Atlanta, US",
+      "highlights": [
+        "Conducted tutorials on Revit and Rhino collaborative workflows.",
+        "Assisted in identifying structural and construction-related issues.",
+        "Managed weekly group reviews for 23 students."
+      ]
+    },
+    {
+      "name": "Atelier Global Limited",
+      "position": "Architecture Intern",
+      "startDate": "2023-06-01",
+      "endDate": "2023-08-01",
+      "location": "Hong Kong",
+      "highlights": [
+        "Developed design schemes for Qingdao Zhongshan Road No.78 Renovation Project.",
+        "Created interior renderings for Zhengzhou East Railway Station.",
+        "Contributed to exhibition modeling for showcases."
+      ]
+    },
+    {
+      "name": "Galaxy Global International LLC",
+      "position": "Packaging Designer Intern",
+      "startDate": "2023-05-01",
+      "endDate": "2023-06-01",
+      "location": "Atlanta, US",
+      "highlights": [
+        "Designed packaging for prepared dishes, seafood, and frozen products."
+      ]
+    },
+    {
+      "name": "Survey and Design Research Institute of Guizhou University",
+      "position": "Old Town Renewal Intern",
+      "startDate": "2022-03-01",
+      "endDate": "2022-06-01",
+      "location": "Guiyang, China",
+      "highlights": [
+        "Conducted on-site investigations in Yunyan District, Guiyang City.",
+        "Designed and detailed plans for facade rehabilitation and roofing replacements.",
+        "Created Rhino models for integrated building design."
+      ]
     }
   ],
-  "certificates": [
+  "research": [
     {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "name": "Neuroarchitecture: Urban Built Environments' Impact on Mental Health",
+      "role": "Researcher",
+      "startDate": "2024-08-01",
+      "endDate": "2024-12-01",
+      "advisor": ["Prof. Patrick Kastner", "Prof. Shalaila S. Haas"],
+      "highlights": [
+        "Conducted a systematic literature review using Covidence.",
+        "Screened titles and abstracts, developed eligibility criteria.",
+        "Drafted the introduction and method sections."
+      ]
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
+      "name": "Data-Driven Fire Risk Mapping in Rural Planning",
+      "role": "Researcher",
+      "startDate": "2024-01-01",
+      "endDate": "2024-05-01",
+      "advisor": "Prof. Patrick Kastner",
+      "highlights": [
+        "Simulated spatial layouts using Grasshopper plug-ins.",
+        "Analyzed wind environment, terrain slope, and precipitation data.",
+        "Created a fire risk map integrating spatial and environmental factors."
+      ]
     },
     {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
+      "name": "Sound Therapy System Design for Enhancing Mental Health of Older Adults",
+      "role": "Researcher",
+      "startDate": "2023-08-01",
+      "endDate": "2023-12-01",
+      "advisor": "Dr. Yousef",
+      "highlights": [
+        "Developed music analysis tools using MATLAB's mirtoolbox.",
+        "Set up Arduino-based HRV measurement system.",
+        "Designed the UI for the sound therapy robot."
+      ]
     },
     {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
+      "name": "Generative Design and Shape Grammar for Honeycomb Arches in Dong Drum Towers",
+      "role": "Researcher",
+      "startDate": "2023-01-01",
+      "endDate": "2023-05-01",
+      "advisor": "Dr. Myrsini Mamoli",
+      "highlights": [
+        "Researched ethnic culture and architectural features of Dong Drum Towers.",
+        "Optimized shape grammar using Rhino."
+      ]
     }
   ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "title": "Harmonizing Emotions: An AI-Driven Sound Therapy System Design",
+      "publisher": "Springer Nature Switzerland",
+      "year": 2024,
+      "url": "https://doi.org/10.1007/978-3-031-60615-1_30",
+      "citations": 15
     },
     {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
+      "title": "Establishing a Fire Risk Map Based on Planned Spatial Layouts",
+      "publisher": "HCI International",
+      "year": 2025,
+      "status": "Under Review"
     },
     {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "title": "Reimagining Chinese Garden Design Using Stable Diffusion",
+      "conference": "CAADRIA 2025",
+      "status": "Under Review"
     }
   ],
-  "skills": [
-    {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
+  "skills": {
+    "Design and Modeling": ["Rhinoceros", "Sketchup", "AutoCAD", "Revit"],
+    "Visualization and Representation": ["Photoshop", "Illustrator", "V-Ray", "Enscape"],
+    "Programming": ["Python", "R", "Java", "C++"],
+    "Audio Production": ["Ableton Live", "FL Studio", "Max/MSP"],
+    "GIS and Spatial Analysis": ["ArcGIS Pro", "ArcGIS Online", "ArcGIS Storymap"]
+  },
   "languages": [
     {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
+      "language": "Mandarin",
+      "fluency": "Native"
     },
     {
       "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
+      "fluency": "Fluent"
     }
   ],
   "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
-    }
+    "Guitar",
+    "Electric Piano",
+    "Drum",
+    "Singing",
+    "Basketball"
   ]
 }
