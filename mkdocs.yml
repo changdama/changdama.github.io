@@ -4,35 +4,44 @@ site_description: Research in Architecture, Acoustics, and AI
 
 theme:
   name: material
-  language: en
-  logo: assets/logo.png   
-  favicon: assets/favicon.png  
+  features:
+    - content.code.copy
+    - content.tooltips
+    - navigation.footer
+    - navigation.indexes
+    - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
   palette:
-    - scheme: slate
-      primary: indigo
-      accent: cyan
+    - media: "(prefers-color-scheme)"
       toggle:
-        icon: material/weather-sunny
+        icon: material/brightness-auto
         name: Switch to light mode
-    - scheme: default
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
       primary: indigo
-      accent: cyan
+      accent: indigo
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
-  font:
-    text: Inter
-    code: JetBrains Mono
-  features:
-    - navigation.tabs
-    - navigation.tabs.sticky
-    - navigation.sections
-    - navigation.top
-    - navigation.footer
-    - toc.follow
-    - search.suggest
-    - search.highlight
-    - content.code.copy
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to system preference
+  icon:
+    logo: material/library
+
+plugins:
+  - search
 
 nav:
   - Home: index.md
@@ -47,14 +56,14 @@ nav:
 
 markdown_extensions:
   - admonition
-  - pymdownx.details
-  - pymdownx.superfences
-  - pymdownx.inlinehilite
-  - pymdownx.highlight
-  - pymdownx.tabbed:
-      alternate_style: true
   - attr_list
   - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
   - toc:
       permalink: true
 
@@ -62,7 +71,3 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/changdama
-    - icon: fontawesome/brands/google-scholar
-      link: https://scholar.google.com/
-    - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/
