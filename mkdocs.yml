@@ -1,4 +1,5 @@
-site_name: Changda Site
+site_name: Changda Ma
+site_url: https://changdama.github.io
 
 theme:
   name: material
