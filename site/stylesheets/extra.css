@@ -167,3 +167,9 @@
 .home-icons a:hover {
   opacity: 1;
 }
+/* Header logo size */
+.md-header__button.md-logo img {
+  height: 32px;     /* 可调：28 / 32 / 36 */
+  width: auto;
+  opacity: 0.9;
+}

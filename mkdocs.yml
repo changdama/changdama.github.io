@@ -4,6 +4,7 @@ site_description: Research in Architecture, Acoustics, and AI
 
 theme:
   name: material
+  logo: assets/profile.jpg
   features:
     - content.code.copy
     - content.tooltips
@@ -84,3 +85,5 @@ extra:
 
 extra_css:
   - stylesheets/extra.css
+
+
