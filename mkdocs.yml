@@ -71,5 +71,16 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/changdama
+    - icon: fontawesome/brands/google-scholar
+      link: https://scholar.google.com/citations?user=YourProfileID&user=NU5McRIAAAAJ
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/changda-ma-419601256/
+    - icon: fontawesome/solid/envelope
+      link: mailto:cma326@gatech.edu
+    - icon: fontawesome/brands/orcid
+      link: https://orcid.org/0009-0005-9355-8525
+    - icon: fontawesome/brands/researchgate
+      link: https://www.researchgate.net/profile/Changda-Ma/research
+
 extra_css:
   - stylesheets/extra.css
