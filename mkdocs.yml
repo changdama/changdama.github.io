@@ -1,5 +1,68 @@
 site_name: Changda Ma
 site_url: https://changdama.github.io
+site_description: Research in Architecture, Acoustics, and AI
 
 theme:
   name: material
+  language: en
+  logo: assets/logo.png   
+  favicon: assets/favicon.png  
+  palette:
+    - scheme: slate
+      primary: indigo
+      accent: cyan
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+    - scheme: default
+      primary: indigo
+      accent: cyan
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+  font:
+    text: Inter
+    code: JetBrains Mono
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+nav:
+  - Home: index.md
+  - Projects:
+      - Overview: projects/index.md
+      - Noise & Sleep: projects/noise-sleep.md
+      - MusicGen-Rhythm: projects/musicgen-rhythm.md
+      - XR Instruments: projects/xr-instruments.md
+  - Publications: publications.md
+  - CV: cv.md
+  - Contact: contact.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.highlight
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/changdama
+    - icon: fontawesome/brands/google-scholar
+      link: https://scholar.google.com/
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/
