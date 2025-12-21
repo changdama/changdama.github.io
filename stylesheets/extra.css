@@ -1,0 +1,40 @@
+/* ====== Make Material look like a personal website (single column) ====== */
+
+/* Hide left navigation sidebar and right TOC on desktop */
+@media screen and (min-width: 76.25em) {
+  .md-sidebar--primary,
+  .md-sidebar--secondary {
+    display: none;
+  }
+  .md-content {
+    margin-left: 0 !important;
+  }
+}
+
+/* Center content and control max width */
+.md-main__inner {
+  max-width: 980px;   /* 你可以改成 900/1100 看喜好 */
+  margin: 0 auto;
+}
+
+/* More whitespace like a personal site */
+.md-content__inner {
+  padding-top: 2rem;
+}
+
+/* Typography tweaks: bigger H1, lighter feeling */
+.md-content__inner h1 {
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.6rem;
+}
+
+.md-content__inner p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+/* Reduce “documentation vibe” a bit */
+.md-typeset .md-button {
+  border-radius: 10px;
+}
