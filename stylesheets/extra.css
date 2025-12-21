@@ -1,40 +1,169 @@
-/* ====== Make Material look like a personal website (single column) ====== */
+/* =========================================================
+   Material for MkDocs → Academic Personal Website
+   FINAL STABLE VERSION
+   - Single column
+   - Hide sidebars
+   - Remove "Made with Material for MkDocs"
+   - Center social icons
+   ========================================================= */
 
-/* Hide left navigation sidebar and right TOC on desktop */
+
+/* ---------------------------------------------------------
+   1) Layout: hide sidebars, single centered column
+   --------------------------------------------------------- */
+
 @media screen and (min-width: 76.25em) {
   .md-sidebar--primary,
   .md-sidebar--secondary {
-    display: none;
+    display: none !important;
   }
+
+  .md-main__inner {
+    display: block !important;
+  }
+
   .md-content {
     margin-left: 0 !important;
   }
 }
 
-/* Center content and control max width */
 .md-main__inner {
-  max-width: 980px;   /* 你可以改成 900/1100 看喜好 */
+  max-width: 980px;
   margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
-/* More whitespace like a personal site */
 .md-content__inner {
-  padding-top: 2rem;
+  padding-top: 2.6rem;
+  padding-bottom: 3.2rem;
 }
 
-/* Typography tweaks: bigger H1, lighter feeling */
+.md-content__inner p,
+.md-content__inner li {
+  max-width: 44em;
+}
+
+@media screen and (max-width: 76.2em) {
+  .md-content__inner p,
+  .md-content__inner li {
+    max-width: 100%;
+  }
+}
+
+
+/* ---------------------------------------------------------
+   2) Typography (personal-site style)
+   --------------------------------------------------------- */
+
 .md-content__inner h1 {
   font-weight: 600;
   letter-spacing: -0.02em;
-  margin-bottom: 0.6rem;
+  margin-bottom: 0.65rem;
+}
+
+.md-content__inner h2 {
+  margin-top: 2.2rem;
+  font-weight: 550;
+  letter-spacing: -0.01em;
 }
 
 .md-content__inner p {
-  font-size: 1.05rem;
-  line-height: 1.7;
+  font-size: 1.06rem;
+  line-height: 1.75;
 }
 
-/* Reduce “documentation vibe” a bit */
 .md-typeset .md-button {
   border-radius: 10px;
+  padding: 0.45em 1.1em;
+}
+
+
+/* ---------------------------------------------------------
+   3) Header cleanup
+   --------------------------------------------------------- */
+
+.md-header {
+  box-shadow: none !important;
+}
+
+.md-header__title {
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+
+.md-header__inner {
+  min-height: 3.2rem;
+}
+
+
+/* ---------------------------------------------------------
+   4) FOOTER — HARD REMOVE "Made with Material for MkDocs"
+   --------------------------------------------------------- */
+
+/* Always keep footer visible */
+.md-footer,
+.md-footer-meta,
+.md-footer-meta__inner {
+  display: block !important;
+}
+
+/* ----  ---- */
+/* Hide ANY link that points to mkdocs / squidfunk */
+.md-footer-meta a[href*="mkdocs"],
+.md-footer-meta a[href*="material"],
+.md-footer-meta a[href*="squidfunk"] {
+  display: none !important;
+}
+
+/* In footer-meta, hide everything except the social icon container */
+.md-footer-meta__inner > :not(.md-social) {
+  display: none !important;
+}
+
+/* ---------------------------------------------------------
+   5) Center social icons perfectly
+   --------------------------------------------------------- */
+
+.md-footer-meta__inner {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  padding: 0.9rem 0 !important;
+}
+
+/* Icon container */
+.md-footer .md-social {
+  gap: 1.2rem;
+}
+
+/* Icon size & style */
+.md-footer .md-social__link {
+  transform: scale(1.4);
+  opacity: 0.9;
+}
+
+.md-footer .md-social__link:hover {
+  opacity: 1;
+  transform: scale(1.55);
+}
+
+.md-footer .md-social__link svg {
+  fill: currentColor;
+}
+
+
+/* ---------------------------------------------------------
+   6) Optional: homepage icon strip
+   --------------------------------------------------------- */
+
+.home-icons a {
+  display: inline-block;
+  font-size: 1.7rem;
+  margin-right: 1rem;
+  opacity: 0.9;
+}
+
+.home-icons a:hover {
+  opacity: 1;
 }
