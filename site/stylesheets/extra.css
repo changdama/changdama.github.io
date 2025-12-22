@@ -1,16 +1,16 @@
 /* =========================================================
    Material for MkDocs → Academic Personal Website
-   FINAL STABLE VERSION
-   - Single column
-   - Hide sidebars
+   FINAL STABLE + Projects (2-col + side nav + TOC)
+   - Default: single column, hide sidebars
+   - Projects only: show left nav + right TOC, 2-column cards
    - Remove "Made with Material for MkDocs"
    - Center social icons
    ========================================================= */
 
 
-/* ---------------------------------------------------------
-   1) Layout: hide sidebars, single centered column
-   --------------------------------------------------------- */
+/* =========================================================
+   1) DEFAULT LAYOUT: hide sidebars, single centered column
+   ========================================================= */
 
 @media screen and (min-width: 76.25em) {
   .md-sidebar--primary,
@@ -52,9 +52,9 @@
 }
 
 
-/* ---------------------------------------------------------
-   2) Typography (personal-site style)
-   --------------------------------------------------------- */
+/* =========================================================
+   2) TYPOGRAPHY (personal-site style)
+   ========================================================= */
 
 .md-content__inner h1 {
   font-weight: 600;
@@ -79,9 +79,9 @@
 }
 
 
-/* ---------------------------------------------------------
-   3) Header cleanup
-   --------------------------------------------------------- */
+/* =========================================================
+   3) HEADER cleanup
+   ========================================================= */
 
 .md-header {
   box-shadow: none !important;
@@ -96,10 +96,18 @@
   min-height: 3.2rem;
 }
 
+/* Header logo size */
+.md-header__button.md-logo img {
+  height: 32px; /* 可调：28 / 32 / 36 */
+  width: auto;
+  opacity: 0.9;
+}
 
-/* ---------------------------------------------------------
+
+/* =========================================================
    4) FOOTER — HARD REMOVE "Made with Material for MkDocs"
-   --------------------------------------------------------- */
+   + keep footer visible and center icons
+   ========================================================= */
 
 /* Always keep footer visible */
 .md-footer,
@@ -108,23 +116,19 @@
   display: block !important;
 }
 
-/* ----  ---- */
-/* Hide ANY link that points to mkdocs / squidfunk */
+/* Hide ANY link that points to mkdocs / squidfunk / material */
 .md-footer-meta a[href*="mkdocs"],
 .md-footer-meta a[href*="material"],
 .md-footer-meta a[href*="squidfunk"] {
   display: none !important;
 }
 
-/* In footer-meta, hide everything except the social icon container */
+/* Hide everything except the social icon container */
 .md-footer-meta__inner > :not(.md-social) {
   display: none !important;
 }
 
-/* ---------------------------------------------------------
-   5) Center social icons perfectly
-   --------------------------------------------------------- */
-
+/* Center social icons perfectly */
 .md-footer-meta__inner {
   display: flex !important;
   justify-content: center !important;
@@ -153,9 +157,9 @@
 }
 
 
-/* ---------------------------------------------------------
-   6) Optional: homepage icon strip
-   --------------------------------------------------------- */
+/* =========================================================
+   5) OPTIONAL: homepage icon strip (if you use it in index.md)
+   ========================================================= */
 
 .home-icons a {
   display: inline-block;
@@ -167,9 +171,69 @@
 .home-icons a:hover {
   opacity: 1;
 }
-/* Header logo size */
-.md-header__button.md-logo img {
-  height: 32px;     /* 可调：28 / 32 / 36 */
-  width: auto;
-  opacity: 0.9;
+
+
+/* =========================================================
+   6) CARDS polish (global)
+   ========================================================= */
+
+/* Card image rounding */
+.md-typeset .grid.cards > ul > li img {
+  border-radius: 10px;
+  margin-bottom: 0.75rem;
+}
+
+/* Card hover */
+.md-typeset .grid.cards > ul > li {
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+.md-typeset .grid.cards > ul > li:hover {
+  transform: translateY(-4px);
+}
+
+
+/* =========================================================
+   7) PROJECTS ONLY: show left nav + right TOC + wider layout
+      + make project cards 2 columns
+   ========================================================= */
+
+/* On Projects pages, re-enable sidebars and widen layout */
+@media screen and (min-width: 76.25em) {
+  body[data-md-url^="/projects/"] .md-sidebar--primary,
+  body[data-md-url^="/projects/"] .md-sidebar--secondary {
+    display: block !important;
+  }
+
+  /* Allow wider layout on projects pages */
+  body[data-md-url^="/projects/"] .md-main__inner {
+    max-width: 1200px;
+  }
+
+  /* Let content flow normally when sidebars exist */
+  body[data-md-url^="/projects/"] .md-content {
+    margin-left: auto !important;
+  }
+}
+
+/* Projects overview: force 2-column cards on desktop */
+@media screen and (min-width: 76.25em) {
+  body[data-md-url^="/projects/"] .md-typeset .grid.cards {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+}
+
+/* Projects overview: 1 column on smaller screens */
+@media screen and (max-width: 76.2em) {
+  body[data-md-url^="/projects/"] .md-typeset .grid.cards {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* Projects card image: unify height to avoid tall portrait dominating */
+body[data-md-url^="/projects/"] .md-typeset .grid.cards img {
+  width: 100%;
+  height: 160px;      /* 可调：140 / 160 / 180 */
+  object-fit: cover;
+  display: block;
 }

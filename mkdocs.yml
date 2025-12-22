@@ -46,11 +46,17 @@ plugins:
 
 nav:
   - Home: index.md
+
   - Projects:
       - Overview: projects/index.md
-      - Noise & Sleep Disturbance: projects/noise-sleep.md
-      - MusicGen-Rhythm: projects/musicgen-rhythm.md
-      - XR Instruments: projects/xr-instruments.md
+      - Fall 2025:
+          - Noise & Sleep Disturbance: projects/noise-sleep.md
+          - MusicGen-Rhythm: projects/musicgen-rhythm.md
+          - XR Instruments: projects/xr-instruments.md
+      - Spring 2025:
+          - Project A: projects/25-sp-project-a.md
+          - Project B: projects/25-sp-project-b.md
+
   - Publications: publications.md
   - CV: cv.md
   - Contact: contact.md
@@ -86,5 +92,7 @@ extra:
 
 extra_css:
   - stylesheets/extra.css
+extra_javascript:
+  - javascripts/site.js
 
 
