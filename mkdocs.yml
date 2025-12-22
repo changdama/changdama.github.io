@@ -48,12 +48,13 @@ nav:
   - Home: index.md
   - Projects:
       - Overview: projects/index.md
-      - Noise & Sleep: projects/noise-sleep.md
+      - Noise & Sleep Disturbance: projects/noise-sleep.md
       - MusicGen-Rhythm: projects/musicgen-rhythm.md
       - XR Instruments: projects/xr-instruments.md
   - Publications: publications.md
   - CV: cv.md
   - Contact: contact.md
+
 
 markdown_extensions:
   - admonition
