@@ -1,31 +1,17 @@
 /* =========================================================
    Material for MkDocs → Academic Personal Website
-   FINAL STABLE + Projects (2-col + side nav + TOC)
-   - Default: single column, hide sidebars
-   - Projects only: show left nav + right TOC, 2-column cards
+   FINAL (Stable, No-Bug)
+   - Default: single column, no sidebars
+   - Projects pages: show LEFT sidebar (section nav), hide right TOC
    - Remove "Made with Material for MkDocs"
-   - Center social icons
+   - Center social icons in footer
+   - Better project cards (2 columns + image polish)
    ========================================================= */
 
 
-/* =========================================================
-   1) DEFAULT LAYOUT: hide sidebars, single centered column
-   ========================================================= */
-
-@media screen and (min-width: 76.25em) {
-  .md-sidebar--primary,
-  .md-sidebar--secondary {
-    display: none !important;
-  }
-
-  .md-main__inner {
-    display: block !important;
-  }
-
-  .md-content {
-    margin-left: 0 !important;
-  }
-}
+/* ---------------------------------------------------------
+   0) Base layout: centered column
+--------------------------------------------------------- */
 
 .md-main__inner {
   max-width: 980px;
@@ -52,9 +38,29 @@
 }
 
 
-/* =========================================================
-   2) TYPOGRAPHY (personal-site style)
-   ========================================================= */
+/* ---------------------------------------------------------
+   1) Default (desktop): hide both sidebars
+--------------------------------------------------------- */
+
+@media screen and (min-width: 76.25em) {
+  .md-sidebar--primary,
+  .md-sidebar--secondary {
+    display: none !important;
+  }
+
+  .md-main__inner {
+    display: block !important;
+  }
+
+  .md-content {
+    margin-left: 0 !important;
+  }
+}
+
+
+/* ---------------------------------------------------------
+   2) Typography polish (personal-site style)
+--------------------------------------------------------- */
 
 .md-content__inner h1 {
   font-weight: 600;
@@ -79,9 +85,9 @@
 }
 
 
-/* =========================================================
-   3) HEADER cleanup
-   ========================================================= */
+/* ---------------------------------------------------------
+   3) Header cleanup + logo sizing
+--------------------------------------------------------- */
 
 .md-header {
   box-shadow: none !important;
@@ -96,39 +102,38 @@
   min-height: 3.2rem;
 }
 
-/* Header logo size */
 .md-header__button.md-logo img {
-  height: 32px; /* 可调：28 / 32 / 36 */
+  height: 32px;
   width: auto;
-  opacity: 0.9;
+  opacity: 0.95;
+  border-radius: 6px;
 }
 
 
-/* =========================================================
-   4) FOOTER — HARD REMOVE "Made with Material for MkDocs"
-   + keep footer visible and center icons
-   ========================================================= */
+/* ---------------------------------------------------------
+   4) Footer: remove "Made with ..." + center icons
+--------------------------------------------------------- */
 
-/* Always keep footer visible */
+/* Keep footer visible */
 .md-footer,
 .md-footer-meta,
 .md-footer-meta__inner {
   display: block !important;
 }
 
-/* Hide ANY link that points to mkdocs / squidfunk / material */
+/* Hide "Made with ..." links (mkdocs/material/squidfunk) */
 .md-footer-meta a[href*="mkdocs"],
 .md-footer-meta a[href*="material"],
 .md-footer-meta a[href*="squidfunk"] {
   display: none !important;
 }
 
-/* Hide everything except the social icon container */
+/* Hide all footer-meta children except social icons */
 .md-footer-meta__inner > :not(.md-social) {
   display: none !important;
 }
 
-/* Center social icons perfectly */
+/* Center social icons */
 .md-footer-meta__inner {
   display: flex !important;
   justify-content: center !important;
@@ -136,20 +141,18 @@
   padding: 0.9rem 0 !important;
 }
 
-/* Icon container */
 .md-footer .md-social {
   gap: 1.2rem;
 }
 
-/* Icon size & style */
 .md-footer .md-social__link {
-  transform: scale(1.4);
+  transform: scale(1.35);
   opacity: 0.9;
 }
 
 .md-footer .md-social__link:hover {
   opacity: 1;
-  transform: scale(1.55);
+  transform: scale(1.52);
 }
 
 .md-footer .md-social__link svg {
@@ -157,33 +160,10 @@
 }
 
 
-/* =========================================================
-   5) OPTIONAL: homepage icon strip (if you use it in index.md)
-   ========================================================= */
+/* ---------------------------------------------------------
+   5) Project cards: image polish + hover + 2 columns (desktop)
+--------------------------------------------------------- */
 
-.home-icons a {
-  display: inline-block;
-  font-size: 1.7rem;
-  margin-right: 1rem;
-  opacity: 0.9;
-}
-
-.home-icons a:hover {
-  opacity: 1;
-}
-
-
-/* =========================================================
-   6) CARDS polish (global)
-   ========================================================= */
-
-/* Card image rounding */
-.md-typeset .grid.cards > ul > li img {
-  border-radius: 10px;
-  margin-bottom: 0.75rem;
-}
-
-/* Card hover */
 .md-typeset .grid.cards > ul > li {
   transition: transform 0.18s ease, box-shadow 0.18s ease;
 }
@@ -192,48 +172,68 @@
   transform: translateY(-4px);
 }
 
-
-/* =========================================================
-   7) PROJECTS ONLY: show left nav + right TOC + wider layout
-      + make project cards 2 columns
-   ========================================================= */
-
-/* On Projects pages, re-enable sidebars and widen layout */
-@media screen and (min-width: 76.25em) {
-  body[data-md-url^="/projects/"] .md-sidebar--primary,
-  body[data-md-url^="/projects/"] .md-sidebar--secondary {
-    display: block !important;
-  }
-
-  /* Allow wider layout on projects pages */
-  body[data-md-url^="/projects/"] .md-main__inner {
-    max-width: 1200px;
-  }
-
-  /* Let content flow normally when sidebars exist */
-  body[data-md-url^="/projects/"] .md-content {
-    margin-left: auto !important;
-  }
-}
-
-/* Projects overview: force 2-column cards on desktop */
-@media screen and (min-width: 76.25em) {
-  body[data-md-url^="/projects/"] .md-typeset .grid.cards {
-    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
-  }
-}
-
-/* Projects overview: 1 column on smaller screens */
-@media screen and (max-width: 76.2em) {
-  body[data-md-url^="/projects/"] .md-typeset .grid.cards {
-    grid-template-columns: 1fr !important;
-  }
-}
-
-/* Projects card image: unify height to avoid tall portrait dominating */
-body[data-md-url^="/projects/"] .md-typeset .grid.cards img {
+/* Thumbnail image styling (your .project-thumb class) */
+.md-typeset img.project-thumb {
   width: 100%;
-  height: 160px;      /* 可调：140 / 160 / 180 */
+  height: 180px;
   object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 0.75rem;
   display: block;
+}
+
+/* Force 2 columns on wider screens */
+@media screen and (min-width: 60em) {
+  .md-typeset .grid.cards > ul {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 1rem !important;
+  }
+}
+
+
+/* ---------------------------------------------------------
+   6) Projects pages ONLY: show LEFT sidebar navigation
+      ✅ Stable: uses body.is-projects (set by site.js)
+--------------------------------------------------------- */
+
+@media screen and (min-width: 76.25em) {
+  /* Two-column layout: sidebar + content */
+  body.is-projects .md-main__inner {
+    max-width: 1200px !important;
+    margin: 0 auto !important;
+
+    display: grid !important;
+    grid-template-columns: 260px minmax(0, 1fr) !important;
+    gap: 1.6rem !important;
+    align-items: start !important;
+  }
+
+  /* Show LEFT sidebar only */
+  body.is-projects .md-sidebar--primary {
+    display: block !important;
+    width: 260px !important;
+
+    position: sticky !important;
+    top: 4.5rem !important;
+    height: calc(100vh - 4.5rem) !important;
+    overflow: auto !important;
+
+    padding-right: 0.25rem !important;
+  }
+
+  /* Hide right TOC */
+  body.is-projects .md-sidebar--secondary {
+    display: none !important;
+  }
+
+  /* Content in right column */
+  body.is-projects .md-content {
+    margin-left: 0 !important;
+  }
+
+  /* Optional: smaller sidebar text */
+  body.is-projects .md-sidebar--primary .md-nav__link {
+    font-size: 0.92rem;
+  }
 }
