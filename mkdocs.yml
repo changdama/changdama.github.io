@@ -47,8 +47,8 @@ plugins:
 nav:
   - Home: index.md
 
-  - Music Technology Projects:
-      - Overview: projects/index.md
+  - Music Technology:
+      - Overview: projects/music_tech/index.md
       - Fall 2025:
           - Noise & Sleep Disturbance: projects/noise-sleep.md
           - MusicGen-Rhythm: projects/musicgen-rhythm.md
@@ -56,8 +56,9 @@ nav:
       - Spring 2025:
           - Project A: projects/25-sp-project-a.md
           - Project B: projects/25-sp-project-b.md
-  - Architecture Research Projects:
-      - Overview: projects/index.md
+
+  - Architecture Research:
+      - Overview: projects/architecture/index.md
       - Fall 2025:
           - Noise & Sleep Disturbance: projects/noise-sleep.md
           - MusicGen-Rhythm: projects/musicgen-rhythm.md
@@ -65,8 +66,9 @@ nav:
       - Spring 2025:
           - Project A: projects/25-sp-project-a.md
           - Project B: projects/25-sp-project-b.md
-  - Spatial Analytics Projects:
-      - Overview: projects/index.md
+          
+  - Spatial Analytics:
+      - Overview: projects/spatial_analytics/index.md
       - Fall 2025:
           - Noise & Sleep Disturbance: projects/noise-sleep.md
           - MusicGen-Rhythm: projects/musicgen-rhythm.md
@@ -76,6 +78,7 @@ nav:
           - Project B: projects/25-sp-project-b.md
 
   - Publications: publications.md
+  - Design: Design.md
   - CV: cv.md
   - Contact: contact.md
 
