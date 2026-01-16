@@ -49,15 +49,25 @@ nav:
 
   - Music Technology:
       - Overview: projects/music_tech/index.md
-      - Fall 2025:
+      - Interactive Sound, XR Experience and Spatial audio:
           - Noise & Sleep Disturbance: projects/noise-sleep.md
           - MusicGen-Rhythm: projects/musicgen-rhythm.md
           - XR Instruments: projects/xr-instruments.md
-      - Spring 2025:
+      - AI for Music:
           - Project A: projects/25-sp-project-a.md
           - Project B: projects/25-sp-project-b.md
+      - Music Information Retrieval:
+          - Project A: projects/25-sp-project-a.md
+          - Project B: projects/25-sp-project-b.md
+      - Music Symbolic and Perception:
+          - Project B: projects/25-sp-project-b.md
+      - Sonification:
+          - Project A: projects/25-sp-project-a.md    
+      - Acoustics:
+          - Project A: projects/25-sp-project-a.md
 
-  - Architecture Research:
+
+  - Architecture and urban Technology Research:
       - Overview: projects/architecture/index.md
       - Fall 2025:
           - Noise & Sleep Disturbance: projects/noise-sleep.md
