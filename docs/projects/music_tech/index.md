@@ -18,11 +18,11 @@
     **Team:** Changda Ma, ...  
     [→ Learn more](musicgen-rhythm.md)
 
--   ![XR Instruments](../assets/projects/xr-instruments.jpg){ .project-thumb }
-    **XR Instruments**  
-    Multi-headset collaborative XR musical instruments and OSC workflows.  
+-   ![COSMIC PULSES](../assets/projects/xr-instruments.jpg){ .project-thumb }
+    **COSMIC PULSES**  
+    "Sound Architecture Machine"-Using Unity to Explore The Interactive Relationship between Sound, Human Activities and Architecture.  
     **Team:** Changda Ma, ...  
-    [→ Learn more](xr-instruments.md)
+    [→ Learn more](../assets/projects/music_tech/COSMIC_PULSES.md)
 
 </div>
 ## AI for Music:
