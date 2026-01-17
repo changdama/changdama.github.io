@@ -11,15 +11,15 @@ Why human beings need to move in architecture space, they need a purpose to pull
 *Cosmic Pulses* is the 13th "hour" of Stockhausen's originally-planned 24-part cycle KLANG ("SOUND") which is based on the 24 hours of the day. Thiselectronic work is composed of 24 layers of synthesizer-generated melodic material, with each layer having a different speed and pitch register. The layers enter one by one, starting from the lowest/slowest layer, and go up in sequence to the highest/fastest layer.
 
 <div style="display: flex; justify-content: center; gap: 10px;">
-  <img src="Fig/1.jpg" alt="Image 1" style="height: 250px; margin: 10px;">
-  <img src="Fig/2.jpg" alt="Image 2" style="height: 250px; margin: 10px;">
+  <img src="../Fig/COSMIC_PULSES/1.jpg" alt="Image 1" style="height: 250px; margin: 10px;">
+  <img src="../Fig/COSMIC_PULSES/2.jpg" alt="Image 2" style="height: 250px; margin: 10px;">
 
 </div>
 
 ### Ecoacoustics ###
 Ecoacoustics is an interdisciplinary science that investigates natural and anthropogenic sounds and their relationship with the environment over a wide range of study scales, both spatial and temporal, including populations, communities, and landscapes. Ecoacoustics operates in all types of terrestrial and aquatic (freshwater and marine) ecosystems.
 
-![Image 4](Fig/4.jpg)
+![Image 4](Fig/COSMIC_PULSES/4.jpg)
 
 ## SOUND MACHINE PRINCIPLE 1 ##
 ### Description ###
@@ -34,7 +34,7 @@ Ecoacoustics is an interdisciplinary science that investigates natural and anthr
 
 **Result**: The result is a creation of a unique sound machine in each combination
 
-![Image 2](Fig/5.jpg)
+![Image 2](Fig/COSMIC_PULSES/5.jpg)
 
 ### Sound Machine Operation System for One Track ###
 
@@ -55,7 +55,7 @@ Ecoacoustics is an interdisciplinary science that investigates natural and anthr
   Another max patch is added to randomly change the thresholds of the low shelf gain, mid gain, and high shelf gain of each group of voices to enrich the "sound machine" effect by improvising the control of the three low shelf gain, mid gain, and high shelf 
   buttons on the spot to randomize the thresholds of the voices.
 
-  ![Image 3](Fig/6.jpg)
+  ![Image 3](Fig/COSMIC_PULSES/6.jpg)
 
 - **Sound-optimized design**
 
@@ -63,7 +63,7 @@ Ecoacoustics is an interdisciplinary science that investigates natural and anthr
    sounds will be paired with bass parts with lower pitches and longer notes. In contrast, the samples of summer night insects are paired with an arpeggiator, which can light up the whole section. All the notes or chords only change when the sound machine switches to a
    new sample.
   
-   ![Image 8](Fig/8.png)
+   ![Image 8](Fig/COSMIC_PULSES/8.png)
 
      Besides, instrumental parts from each category use different scales. However, to ensure natural transition when approaching sound machines from a different category, and a harmonious overall effect, the scales are closely related to each other: g natural minor 
    for Biophony, F major for Anthrophony, bB major for Geophony. This consideration mainly roots from our vision of harmonious coexistence between human and nature.
@@ -85,30 +85,30 @@ Ecoacoustics is an interdisciplinary science that investigates natural and anthr
 For the effects in the medium, The sound generates spatial lines in the medium of unity, and as the sound travels through the medium, the sparsity of the spatial lines changes，which like sound creates ripples in the water.
 
 <div style="display: flex; justify-content: center; gap: 10px;">
-  <img src="Fig/9.gif" alt="Image 9" style="height: 200px; margin: 10px;">
-  <img src="Fig/10.gif" alt="Image 10" style="height: 200px; margin: 10px;">
+  <img src="../Fig/COSMIC_PULSES/9.gif" alt="Image 9" style="height: 200px; margin: 10px;">
+  <img src="../Fig/COSMIC_PULSES/10.gif" alt="Image 10" style="height: 200px; margin: 10px;">
 
 </div>
 
 ### SOUNDSCAPE: SOUND MACHINES IN MEDIUM ###
 
-![Image 4](Fig/7.jpg)
+![Image 4](Fig/COSMIC_PULSES/7.jpg)
 
 ### Section of Sound Machines in Soundscape  ###
 
 **Sound Waves of Different Sound Machines**: 
 
-![Image 11](Fig/11.jpg)
+![Image 11](Fig/COSMIC_PULSES/11.jpg)
 
 **Sound Machines Movement**:
 
 Dissecting the medium into 24 layers and exploring the iterations of different movements and across different time periods.
 
-![Image 12](Fig/12.jpg)
+![Image 12](Fig/COSMIC_PULSES/12.jpg)
 
 The wave forms of Sound Machines are analysed at different time periods to visualise the frequency and displacement. They are then subjected to a box with a medium and targeted with a point source of sound in different positions. The final diagrams are the visualisations of these sound machines interacting with the medium and each other.(Take "SAME TIME PERIOD POSITIONS: TOP 4 MACHINES IN –X DIRECTION, BOTTOM 4 MACHINES IN +X DIRECTION" as an example)
 
-![Image 13](Fig/13.jpg)
+![Image 13](Fig/COSMIC_PULSES/13.jpg)
 
 ## SOUND MACHINES, PEOPLE AND SPACE INTERACTION ##
 
@@ -116,7 +116,7 @@ The wave forms of Sound Machines are analysed at different time periods to visua
 
 The interactive envionmenet is built in Unity, envisioning it as a medium. Sound, people and medium are interacted with each other. Based on two principles, We put eight "sound machines"，they make rotating sounds through their respective black sound speakers.
 
-![Image 14](Fig/14.jpg)
+![Image 14](Fig/COSMIC_PULSES/14.jpg)
 
 ### Interaction With Person ###
 
