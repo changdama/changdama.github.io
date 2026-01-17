@@ -22,7 +22,7 @@
     **COSMIC PULSES**  
     "Sound Architecture Machine"-Using Unity to Explore The Interactive Relationship between Sound, Human Activities and Architecture.  
     **Team:** Changda Ma, ...  
-    [→ Learn more](../assets/projects/music_tech/COSMIC_PULSES.md)
+    [→ Learn more](../music_tech/COSMIC_PULSES.md)
 
 </div>
 ## AI for Music:
