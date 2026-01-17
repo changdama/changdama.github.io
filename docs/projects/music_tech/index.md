@@ -1,6 +1,6 @@
 <div class="page-projects" markdown>
 
-# Projects
+# Music Technology
 
 ## Interactive Sound, XR Experience and Spatial audio:
 
@@ -18,10 +18,13 @@
     **Team:** Changda Ma, ...  
     [→ Learn more](musicgen-rhythm.md)
 
--   ![COSMIC PULSES](../assets/projects/xr-instruments.jpg){ .project-thumb }
+-   ![COSMIC PULSES](/assets/projects/COSMIC_PULSES.png){ .project-thumb }
     **COSMIC PULSES**  
     "Sound Architecture Machine"-Using Unity to Explore The Interactive Relationship between Sound, Human Activities and Architecture.  
-    **Team:** Changda Ma, ...  
+    **Team:** Changda Ma, Ruthu Chandrashekar, Yurui Wu, Qufei Hou 
+
+    **Instructors:** Lars Spuijbroek, Frank Clark
+
     [→ Learn more](../music_tech/COSMIC_PULSES.md)
 
 </div>
