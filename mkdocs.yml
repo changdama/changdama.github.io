@@ -67,25 +67,36 @@ nav:
           - Project A: projects/25-sp-project-a.md
 
 
-  - Architecture and urban Technology Research:
+  - Architecture and Urban Technology:
       - Overview: projects/architecture/index.md
-      - Fall 2025:
+      - High Performance Buildings:
           - Noise & Sleep Disturbance: projects/noise-sleep.md
           - MusicGen-Rhythm: projects/musicgen-rhythm.md
           - XR Instruments: projects/xr-instruments.md
-      - Spring 2025:
+      - AI for Built Environment:
+          - Project A: projects/25-sp-project-a.md
+          - Project B: projects/25-sp-project-b.md
+      - Built Environment and Health:
+          - Project A: projects/25-sp-project-a.md
+          - Project B: projects/25-sp-project-b.md
+      - Digital Fabrication and Robotics:
+          - Project A: projects/25-sp-project-a.md
+          - Project B: projects/25-sp-project-b.md
+      - Computational Design:
           - Project A: projects/25-sp-project-a.md
           - Project B: projects/25-sp-project-b.md
           
   - Spatial Analytics:
       - Overview: projects/spatial_analytics/index.md
-      - Fall 2025:
-          - Noise & Sleep Disturbance: projects/noise-sleep.md
-          - MusicGen-Rhythm: projects/musicgen-rhythm.md
-          - XR Instruments: projects/xr-instruments.md
-      - Spring 2025:
+      - GIS:
           - Project A: projects/25-sp-project-a.md
           - Project B: projects/25-sp-project-b.md
+      - Spatial Regression:
+          - Project A: projects/25-sp-project-a.md
+          - Project B: projects/25-sp-project-b.md
+      - GeoAI:
+          - Project A: projects/25-sp-project-a.md
+          - Project B: projects/25-sp-project-b.md  
 
   - Publications: publications.md
   - Design: Design.md
