@@ -33,7 +33,7 @@
 
 <div class="grid cards" markdown>
 
--   ![Noise & Sleep Disturbance](../assets/projects/noise-sleep.jpg){ .project-thumb .thumb-figure }
+-   ![Noise & Sleep Disturbance](/assets/projects/COSMIC_PULSES.png){ .project-thumb }
     **Noise & Sleep Disturbance**  
     Urban noise exposure, sleep disturbance index, and health analytics.  
     **Team:** Changda Ma, ...  
