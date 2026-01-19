@@ -66,6 +66,13 @@ nav:
       - Acoustics:
           - Project A: projects/25-sp-project-a.md
 
+  - Audio Mixing and Recordings:
+      - Overview: projects/Audio_Mixing_and_Recordings/index.md
+      - Audio One- "What's Life": projects/noise-sleep.md
+      - Audio Two- "Ethnic Fusion Elegy": projects/musicgen-rhythm.md
+      - Audio Three- "Fibonacci Future Bass": projects/Audio_Mixing_and_Recordings/FFB.md
+
+
 
   - Architecture and Urban Technology:
       - Overview: projects/architecture/index.md
