@@ -50,7 +50,6 @@
 
     [→ Learn more](../music_tech/musicgen_rhythm.md)
 
-    {:.project-card-wide }
 
 -   ![XR Instruments](../assets/projects/xr-instruments.jpg){ .project-thumb }
     **XR Instruments**  

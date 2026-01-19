@@ -173,13 +173,28 @@
 }
 
 /* Thumbnail image styling (your .project-thumb class) */
+/* Default */
 .md-typeset img.project-thumb {
   width: 100%;
-  height: 350px;
-  object-fit: cover;
   border-radius: 12px;
   margin-bottom: 0.6rem;
   display: block;
+}
+
+/* For paper/figure thumbnails */
+.md-typeset img.project-thumb.thumb-figure {
+  aspect-ratio: 16 / 9;
+  object-fit: contain;
+  background: #ffffff;
+  padding: 0.3rem;
+  box-sizing: border-box;
+}
+
+/* For cover-style thumbnails */
+.md-typeset img.project-thumb.thumb-cover {
+  height: 350px;
+  object-fit: cover;
+  object-position: center;
 }
 
 /* Force 2 columns on wider screens */
@@ -284,6 +299,10 @@ body.is-projects .md-sidebar--primary .md-nav__item .md-nav__list .md-nav__item 
 /* 5) Active page highlight (keep size, make clearer) */
 body.is-projects .md-sidebar--primary .md-nav__link--active {
   font-weight: 700;
+}
+/* Wide project cards (hero projects) */
+.md-typeset .grid.cards > ul > li.project-card-wide {
+  grid-column: span 2;
 }
 
 }
