@@ -248,7 +248,42 @@
   }
 
   /* Optional: smaller sidebar text */
-  body.is-projects .md-sidebar--primary .md-nav__link {
-    font-size: 0.92rem;
-  }
+/* ---------------------------------------------------------
+   Sidebar typography by hierarchy (Projects pages only)
+--------------------------------------------------------- */
+
+/* 1) Section title (e.g., "Music Technology") */
+body.is-projects .md-sidebar--primary .md-nav__title {
+  font-size: 0.80rem;
+  font-weight: 650;
+  letter-spacing: 0.02em;
+  opacity: 0.85;
+}
+
+/* 2) Level-1 items (top-level pages under a section) */
+body.is-projects .md-sidebar--primary .md-nav__item--section > .md-nav__link,
+body.is-projects .md-sidebar--primary .md-nav__item > .md-nav__link {
+  font-size: 0.9rem;
+  line-height: 1.45;
+}
+
+/* 3) Level-2 items (nested pages) */
+body.is-projects .md-sidebar--primary .md-nav__item .md-nav__list .md-nav__link {
+  font-size: 0.8rem;
+  line-height: 1.4;
+  opacity: 0.92;
+}
+
+/* 4) Level-3+ items (deeper nesting) */
+body.is-projects .md-sidebar--primary .md-nav__item .md-nav__list .md-nav__item .md-nav__list .md-nav__link {
+  font-size: 0.7rem;
+  line-height: 1.35;
+  opacity: 0.90;
+}
+
+/* 5) Active page highlight (keep size, make clearer) */
+body.is-projects .md-sidebar--primary .md-nav__link--active {
+  font-weight: 700;
+}
+
 }
