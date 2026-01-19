@@ -43,7 +43,10 @@
     **MusicGen-Rhythm** (Ongoing research) 
     Rhythm-aware conditioning for text-to-music audio generation 
 
-    **Team:** Changda Ma, Govinda Madhava BS, Lennon Seiders  
+    **Team:** Changda Ma, Govinda Madhava BS, Lennon Seiders
+
+    **Instructors:** Claire Arthur, Noel Alben (TA) 
+
     [→ Learn more](../music_tech/musicgen_rhythm.md)
 
 -   ![XR Instruments](../assets/projects/xr-instruments.jpg){ .project-thumb }
@@ -72,7 +75,7 @@
 -   ![XR Instruments](../assets/projects/xr-instruments.jpg){ .project-thumb }
     **XR Instruments**  
     Multi-headset collaborative XR musical instruments and OSC workflows.  
-    **Team:** Changda Ma, ...  
+    **Team:** Changda Ma, Alexey Voronin 
     [→ Learn more](xr-instruments.md)
 
 </div>
@@ -80,23 +83,17 @@
 
 <div class="grid cards" markdown>
 
--   ![Noise & Sleep Disturbance](../assets/projects/noise-sleep.jpg){ .project-thumb }
-    **Noise & Sleep Disturbance**  
-    Urban noise exposure, sleep disturbance index, and health analytics.  
-    **Team:** Changda Ma, ...  
-    [→ Learn more](noise-sleep.md)
+-   ![Exploring the Influence of Syncopation and Loudness on Listener Arousal in Music:](../assets/projects/noise-sleep.jpg){ .project-thumb }
+    **Exploring the Influence of Syncopation and Loudness on Listener Arousal in Music:**  
 
--   ![MusicGen-Rhythm](../assets/projects/musicgen-rhythm.jpg){ .project-thumb }
-    **MusicGen-Rhythm**  
-    Rhythm-conditioned text-to-music generation with coherence losses.  
-    **Team:** Changda Ma, ...  
-    [→ Learn more](musicgen-rhythm.md)
+    Using HumdrumR to examine the individual and combined effects of syncopation and loudness on listener reported arousal. 
 
--   ![XR Instruments](../assets/projects/xr-instruments.jpg){ .project-thumb }
-    **XR Instruments**  
-    Multi-headset collaborative XR musical instruments and OSC workflows.  
-    **Team:** Changda Ma, ...  
-    [→ Learn more](xr-instruments.md)
+    **Team:** Changda Ma, Alexey Voronin 
+  
+    **Instructors:** Claire Arthur
+
+    [→ Learn more](../music_tech/Syncopation.md)
+
 
 </div>
 
