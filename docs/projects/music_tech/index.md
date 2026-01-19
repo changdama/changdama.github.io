@@ -19,7 +19,8 @@
     [→ Learn more](musicgen-rhythm.md)
 
 -   ![COSMIC PULSES](/assets/projects/COSMIC_PULSES.png){ .project-thumb }
-    **COSMIC PULSES**  
+    **COSMIC PULSES**  (Course Project)
+
     "Sound Architecture Machine"-Using Unity to Explore The Interactive Relationship between Sound, Human Activities and Architecture.  
     **Team:** Changda Ma, Ruthu Chandrashekar, Yurui Wu, Qufei Hou 
 
@@ -38,11 +39,12 @@
     **Team:** Changda Ma, ...  
     [→ Learn more](noise-sleep.md)
 
--   ![MusicGen-Rhythm](../assets/projects/musicgen-rhythm.jpg){ .project-thumb }
-    **MusicGen-Rhythm**  
-    Rhythm-conditioned text-to-music generation with coherence losses.  
-    **Team:** Changda Ma, ...  
-    [→ Learn more](musicgen-rhythm.md)
+-   ![MusicGen-Rhythm](/assets/projects/musicgen_rhythm.png){ .project-thumb }
+    **MusicGen-Rhythm** (Ongoing research) 
+    Rhythm-aware conditioning for text-to-music audio generation 
+
+    **Team:** Changda Ma, Govinda Madhava BS, Lennon Seiders  
+    [→ Learn more](../music_tech/musicgen_rhythm.md)
 
 -   ![XR Instruments](../assets/projects/xr-instruments.jpg){ .project-thumb }
     **XR Instruments**  

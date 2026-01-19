@@ -54,7 +54,7 @@ nav:
           - MusicGen-Rhythm: projects/musicgen-rhythm.md
           - COSMIC PULSES: projects/music_tech/COSMIC_PULSES.md
       - AI for Music:
-          - Project A: projects/25-sp-project-a.md
+          - MusicGen-Rhythm: projects/music_tech/musicgen_rhythm.md
           - Project B: projects/25-sp-project-b.md
       - Music Information Retrieval:
           - Project A: projects/25-sp-project-a.md
@@ -116,6 +116,8 @@ markdown_extensions:
       alternate_style: true
   - toc:
       permalink: true
+  - pymdownx.arithmatex:
+      generic: true
 
 extra:
   social:
@@ -136,5 +138,6 @@ extra_css:
   - stylesheets/extra.css
 extra_javascript:
   - javascripts/site.js
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 
