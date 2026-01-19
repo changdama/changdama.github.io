@@ -112,7 +112,7 @@ This loss design enables rhythm-aware learning while preserving the stability an
 
 - Backbone: *facebook/musicgen-small* (frozen)  
 - Audio: 32 kHz, 30-second clips  
-- Training & evaluation: Google Colab (GPU)  
+- Training & evaluation: Google Colab A100 High RAM (GPU)  
 
 Quantitative evaluations and ablation studies are reported in the accompanying paper under preparation.  
 (Detailed results will be added to this page after publication.)
@@ -122,6 +122,7 @@ Quantitative evaluations and ablation studies are reported in the accompanying p
 ## Future Directions
 
 Several extensions are planned for future work, including: 
+
 - Interactive rhythm-aware prompting and control  
 - Subjective listening studies and perceptual evaluation  
 
@@ -136,4 +137,4 @@ These directions aim to further explore how explicit rhythmic structure can supp
 - Paper submission in preparation  
 
 > *This page presents methodological design only.  
-Results and conclusions may change prior to formal publication.*
+Results and conclusions may change after published.*
