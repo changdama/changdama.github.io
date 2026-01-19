@@ -33,13 +33,14 @@
 
 <div class="grid cards" markdown>
 
--   ![Noise & Sleep Disturbance](../assets/projects/noise-sleep.jpg){ .project-thumb }
+-   ![Noise & Sleep Disturbance](../assets/projects/noise-sleep.jpg){ .project-thumb .thumb-figure }
     **Noise & Sleep Disturbance**  
     Urban noise exposure, sleep disturbance index, and health analytics.  
     **Team:** Changda Ma, ...  
     [→ Learn more](noise-sleep.md)
 
--   ![MusicGen-Rhythm](/assets/projects/musicgen_rhythm.png){ .project-thumb }
+-   ![MusicGen-Rhythm](/assets/projects/musicgen_rhythm.png){ .project-thumb .thumb-figure }
+
     **MusicGen-Rhythm** (Ongoing research) 
     Rhythm-aware conditioning for text-to-music audio generation 
 
@@ -48,6 +49,8 @@
     **Instructors:** Claire Arthur, Noel Alben (TA) 
 
     [→ Learn more](../music_tech/musicgen_rhythm.md)
+
+    {:.project-card-wide }
 
 -   ![XR Instruments](../assets/projects/xr-instruments.jpg){ .project-thumb }
     **XR Instruments**  
@@ -83,7 +86,7 @@
 
 <div class="grid cards" markdown>
 
--   ![Exploring the Influence of Syncopation and Loudness on Listener Arousal in Music:](../assets/projects/noise-sleep.jpg){ .project-thumb }
+-   ![Exploring the Influence of Syncopation and Loudness on Listener Arousal in Music:](/assets/projects/syco.svg){ .project-thumb .thumb-figure }
     **Exploring the Influence of Syncopation and Loudness on Listener Arousal in Music:**  
 
     Using HumdrumR to examine the individual and combined effects of syncopation and loudness on listener reported arousal. 
