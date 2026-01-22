@@ -12,11 +12,6 @@
     **Team:** Changda Ma, ...  
     [→ Learn more](noise-sleep.md)
 
--   ![MusicGen-Rhythm](../assets/projects/musicgen-rhythm.jpg){ .project-thumb }
-    **MusicGen-Rhythm**  
-    Rhythm-conditioned text-to-music generation with coherence losses.  
-    **Team:** Changda Ma, ...  
-    [→ Learn more](musicgen-rhythm.md)
 
 -   ![COSMIC PULSES](/assets/projects/COSMIC_PULSES.png){ .project-thumb }
     **COSMIC PULSES**  (Course Project)
@@ -28,20 +23,28 @@
 
     [→ Learn more](../music_tech/COSMIC_PULSES.md)
 
+-   ![Music Hide](/assets/projects/music_hide.png){ .project-thumb }
+
+    **Music Hide**  (Course Project)
+
+    AR-based multiplayer musical treasure hunt  
+
+    **Team:** Dhruv, Changda Ma
+
+    **Instructors:** Jeremy Muller
+
+    [→ Learn more](../music_tech/music_hide.md)
+
 </div>
 ## AI for Music:
 
 <div class="grid cards" markdown>
 
--   ![Noise & Sleep Disturbance](/assets/projects/COSMIC_PULSES.png){ .project-thumb }
-    **Noise & Sleep Disturbance**  
-    Urban noise exposure, sleep disturbance index, and health analytics.  
-    **Team:** Changda Ma, ...  
-    [→ Learn more](noise-sleep.md)
 
 -   ![MusicGen-Rhythm](/assets/projects/musicgen_rhythm.png){ .project-thumb .thumb-figure }
 
     **MusicGen-Rhythm** (Ongoing research) 
+
     Rhythm-aware conditioning for text-to-music audio generation 
 
     **Team:** Changda Ma, Govinda Madhava BS, Lennon Seiders
@@ -51,10 +54,16 @@
     [→ Learn more](../music_tech/musicgen_rhythm.md)
 
 
--   ![XR Instruments](../assets/projects/xr-instruments.jpg){ .project-thumb }
-    **XR Instruments**  
+-   ![Deep Salient Detection for F0 Estimation](/assets/projects/deep_salient_detection.png){ .project-thumb .thumb-figure }
+
+    **Deep Salient Detection for F0 Estimation** (Course Project)  
+
     Multi-headset collaborative XR musical instruments and OSC workflows.  
-    **Team:** Changda Ma, ...  
+
+    **Team:** Changda Ma, Jiayi Wang 
+
+    **Instructor:** Claire Arthur, Noel Alben (TA)
+
     [→ Learn more](xr-instruments.md)
 
 </div>
@@ -86,7 +95,8 @@
 <div class="grid cards" markdown>
 
 -   ![Exploring the Influence of Syncopation and Loudness on Listener Arousal in Music:](/assets/projects/syco.svg){ .project-thumb .thumb-figure }
-    **Exploring the Influence of Syncopation and Loudness on Listener Arousal in Music:**  
+
+    **Exploring the Influence of Syncopation and Loudness on Listener Arousal in Music:**  (Course Project)
 
     Using HumdrumR to examine the individual and combined effects of syncopation and loudness on listener reported arousal. 
 

@@ -1,12 +1,14 @@
-# Exploring-the-Influence-of-Syncopation-and-Loudness-on-Listener-Arousal-in-Music
+# Exploring the Influence of Syncopation and Loudness on Listener Arousal in Music
 
 **Examine the individual and combined effects of syncopation and loudness on listener-reported arousal**
 
 ## Introduction ##
 Music is a powerful tool for evoking emotions, capable of influencing mood, physiological states, and even behavior. Arousal, one of the primary dimensions of emotional response, reflects the intensity or energy level of an experience and is shaped by various musical features. Understanding the mechanisms behind arousal in music not only deepens our comprehension of human emotional processing but also has practical applications in fields such as music therapy, entertainment, and artificial intelligence-driven music composition. In this research, using syncopation and loudness to analyze arousal.
+
 - **Syncopation**: Syncopation, marked by rhythmic irregularities and disruptions of expected patterns, evokes excitement and emotional tension by challenging the listener's predictive models (Huron & Ommen, 2006; 
                    Tan et al., 2019). Its impact on arousal depends on context and familiarity, with moderate syncopation often bringing more enjoyment than very low or high levels, supporting optimal complexity 
                    theories (Gómez et al., 2005).
+
 - **Loudness**： Loudness, measured by RMS levels, strongly influences arousal, with louder music perceived as more intense and engaging, triggering heightened physiological and emotional responses (Hosken et al., 
                  2021). Unlike syncopation, it serves as a direct cue, consistently correlating with arousal across styles and listeners.
   
@@ -55,7 +57,7 @@ library(humdrumR)
 🎶🔊**Combined RMS and Syncopation Score**
  - A composite score that integrates both RMS and syncopation metrics.
 
- ### Procedure ###
+### Procedure ###
 
 - **Load library**
   ```

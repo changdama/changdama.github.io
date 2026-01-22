@@ -51,11 +51,12 @@ nav:
       - Overview: projects/music_tech/index.md
       - Interactive Sound, XR Experience and Spatial audio:
           - Noise & Sleep Disturbance: projects/noise-sleep.md
-          - MusicGen-Rhythm: projects/musicgen-rhythm.md
           - COSMIC PULSES: projects/music_tech/COSMIC_PULSES.md
+          - Music Hide: projects/music_tech/music_hide.md
       - AI for Music:
           - MusicGen-Rhythm: projects/music_tech/musicgen_rhythm.md
-          - Project B: projects/25-sp-project-b.md
+          - Deep Salient Detection for F0 Estimation: projects/music_tech/Deep_Salient_Detection_for_F0_Estimation.md
+
       - Music Information Retrieval:
           - Project A: projects/25-sp-project-a.md
           - Project B: projects/25-sp-project-b.md
