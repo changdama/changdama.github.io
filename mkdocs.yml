@@ -49,8 +49,8 @@ nav:
 
   - Music Technology:
       - Overview: projects/music_tech/index.md
-      - Interactive Sound, XR Experience and Spatial audio:
-          - Noise & Sleep Disturbance: projects/noise-sleep.md
+      - Interactive Sound, XR Experience and Spatial Audio:
+          - Since Every is DJ: projects/music_tech/spatial_audio.md
           - COSMIC PULSES: projects/music_tech/COSMIC_PULSES.md
           - Music Hide: projects/music_tech/music_hide.md
       - AI for Music:

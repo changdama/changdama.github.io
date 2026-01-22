@@ -2,15 +2,21 @@
 
 # Music Technology
 
-## Interactive Sound, XR Experience and Spatial audio:
+## Interactive Sound, XR Experience and Spatial Audio:
 
 <div class="grid cards" markdown>
 
--   ![Noise & Sleep Disturbance](../assets/projects/noise-sleep.jpg){ .project-thumb }
-    **Noise & Sleep Disturbance**  
-    Urban noise exposure, sleep disturbance index, and health analytics.  
-    **Team:** Changda Ma, ...  
-    [→ Learn more](noise-sleep.md)
+-   ![Since Everyone is DJ](/assets/projects/spatial_audio.jpg){ .project-thumb }
+
+    **Since Everyone is DJ**  (Course Project and Ongoing Research)
+
+    Spatial Audio Interactive Installation presented at The Underground, Atlanta.  
+
+    **Team:** Canting Zhu, Changda Ma, Gibran Mubarak, Sunshiyu Wang
+
+    **Instructors:** Henrik von Coler
+
+    [→ Learn more](./music_tech/spatial_audio.md)
 
 
 -   ![COSMIC PULSES](/assets/projects/COSMIC_PULSES.png){ .project-thumb }
