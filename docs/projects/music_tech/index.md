@@ -5,10 +5,25 @@
 ## Interactive Sound, XR Experience and Spatial Audio:
 
 <div class="grid cards" markdown>
+-   ![Cube-Network XR ](/assets/projects/4cubes.jpg){ .project-thumb }
+
+    **Cube-Network XR**  
+
+    (Lab Ongoing Research)
+
+    An Experimental System for Networked and hardware XR Musical Interaction  
+
+    **Team:** Canting Zhu, Changda Ma, Tristan Peng, Lana Boudiab
+
+    **Instructors:** Henrik von Coler
+
+    [→ Learn more](./music_tech/spatial_audio.md)
 
 -   ![Since Everyone is DJ](/assets/projects/spatial_audio.jpg){ .project-thumb }
 
-    **Since Everyone is DJ**  (Course Project and Ongoing Research)
+    **Since Everyone is DJ**  
+
+    (Course Project and Ongoing Research)
 
     Spatial Audio Interactive Installation presented at The Underground, Atlanta.  
 

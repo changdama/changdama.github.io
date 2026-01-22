@@ -50,6 +50,7 @@ nav:
   - Music Technology:
       - Overview: projects/music_tech/index.md
       - Interactive Sound, XR Experience and Spatial Audio:
+          - Cube-Network XR  : projects/music_tech/4cubes.md
           - Since Every is DJ: projects/music_tech/spatial_audio.md
           - COSMIC PULSES: projects/music_tech/COSMIC_PULSES.md
           - Music Hide: projects/music_tech/music_hide.md
