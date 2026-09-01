@@ -1,37 +1,37 @@
-<div class="page-projects" markdown>
+﻿<div class="page-projects" markdown>
 
 # Music Technology
 
 ## Interactive Sound, XR Experience and Spatial Audio:
 
 <div class="grid cards" markdown>
--   ![Cube-Network XR ](/assets/projects/4cubes.jpg){ .project-thumb }
+-   ![4CUBES — Collaborative Swarm-Based XR Musical System](/assets/projects/cube_Index.jpg){ .project-thumb .fourcubes-index-cover }
 
-    **Cube-Network XR**  
+    **4CUBES**  
 
     (Lab Ongoing Research)
 
-    An Experimental System for Networked and hardware XR Musical Interaction  
+    A collaborative swarm-based XR musical system for networked spatial performance.  
 
     **Team:** Canting Zhu, Changda Ma, Tristan Peng, Lana Boudiab
 
     **Instructors:** Henrik von Coler
 
-    [→ Learn more](./music_tech/spatial_audio.md)
+    [Learn more](4cubes.md)
 
--   ![Since Everyone is DJ](/assets/projects/spatial_audio.jpg){ .project-thumb }
+-   ![Immersive Open Studio: Shared Space, Shared Sound](/assets/projects/spatial_audio.jpg){ .project-thumb }
 
-    **Since Everyone is DJ**  
+    **Immersive Open Studio: Shared Space, Shared Sound**  
 
-    (Course Project and Ongoing Research)
+    (Published Research)
 
-    Spatial Audio Interactive Installation presented at The Underground, Atlanta.  
+    A reusable spatial-audio studio for collaborative, public-facing interactive work at Underground Atlanta.  
 
-    **Team:** Canting Zhu, Changda Ma, Gibran Mubarak, Sunshiyu Wang
+    **Co-authors:** Sunshiyu Wang, Changda Ma, Canting Zhu, Gibran Mobarak
 
-    **Instructors:** Henrik von Coler
+    **Instructor:** Henrik von Coler
 
-    [→ Learn more](./music_tech/spatial_audio.md)
+    [Learn more](spatial_audio.md)
 
 
 -   ![COSMIC PULSES](/assets/projects/COSMIC_PULSES.png){ .project-thumb }
@@ -42,7 +42,7 @@
 
     **Instructors:** Lars Spuijbroek, Frank Clark
 
-    [→ Learn more](../music_tech/COSMIC_PULSES.md)
+    [Learn more](../music_tech/COSMIC_PULSES.md)
 
 -   ![Music Hide](/assets/projects/music_hide.png){ .project-thumb }
 
@@ -54,7 +54,7 @@
 
     **Instructors:** Jeremy Muller
 
-    [→ Learn more](../music_tech/music_hide.md)
+    [Learn more](../music_tech/music_hide.md)
 
 </div>
 ## AI for Music:
@@ -72,7 +72,7 @@
 
     **Instructors:** Claire Arthur, Noel Alben (TA) 
 
-    [→ Learn more](../music_tech/musicgen_rhythm.md)
+    [Learn more](../music_tech/musicgen_rhythm.md)
 
 
 -   ![Deep Salient Detection for F0 Estimation](/assets/projects/deep_salient_detection.png){ .project-thumb .thumb-figure }
@@ -85,7 +85,7 @@
 
     **Instructor:** Claire Arthur, Noel Alben (TA)
 
-    [→ Learn more](xr-instruments.md)
+    [Learn more](xr-instruments.md)
 
 </div>
 ## Music Information Retrieval:
@@ -96,19 +96,19 @@
     **Noise & Sleep Disturbance**  
     Urban noise exposure, sleep disturbance index, and health analytics.  
     **Team:** Changda Ma, ...  
-    [→ Learn more](noise-sleep.md)
+    [Learn more](noise-sleep.md)
 
 -   ![MusicGen-Rhythm](../assets/projects/musicgen-rhythm.jpg){ .project-thumb }
     **MusicGen-Rhythm**  
     Rhythm-conditioned text-to-music generation with coherence losses.  
     **Team:** Changda Ma, ...  
-    [→ Learn more](musicgen-rhythm.md)
+    [Learn more](musicgen-rhythm.md)
 
 -   ![XR Instruments](../assets/projects/xr-instruments.jpg){ .project-thumb }
     **XR Instruments**  
     Multi-headset collaborative XR musical instruments and OSC workflows.  
     **Team:** Changda Ma, Alexey Voronin 
-    [→ Learn more](xr-instruments.md)
+    [Learn more](xr-instruments.md)
 
 </div>
 ## Music Symbolic and Perception:
@@ -125,7 +125,7 @@
   
     **Instructors:** Claire Arthur
 
-    [→ Learn more](../music_tech/Syncopation.md)
+    [Learn more](../music_tech/Syncopation.md)
 
 
 </div>
@@ -142,7 +142,7 @@
 
     **Team:** Changda Ma, Sunshiyu Wang, Canting Zhu
 
-    [→ Learn more](../music_tech/xnekis.md)
+    [Learn more](../music_tech/xnekis.md)
 
 
 </div>
@@ -155,21 +155,22 @@
     **Noise & Sleep Disturbance**  
     Urban noise exposure, sleep disturbance index, and health analytics.  
     **Team:** Changda Ma, ...  
-    [→ Learn more](noise-sleep.md)
+    [Learn more](noise-sleep.md)
 
 -   ![MusicGen-Rhythm](../assets/projects/musicgen-rhythm.jpg){ .project-thumb }
     **MusicGen-Rhythm**  
     Rhythm-conditioned text-to-music generation with coherence losses.  
     **Team:** Changda Ma, ...  
-    [→ Learn more](musicgen-rhythm.md)
+    [Learn more](musicgen-rhythm.md)
 
 -   ![XR Instruments](../assets/projects/xr-instruments.jpg){ .project-thumb }
     **XR Instruments**  
     Multi-headset collaborative XR musical instruments and OSC workflows.  
     **Team:** Changda Ma, ...  
-    [→ Learn more](xr-instruments.md)
+    [Learn more](xr-instruments.md)
 
 </div>
 
 
 </div>
+

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">4CUBES</title>
+  <desc id="desc">Collaborative swarm-based XR musical system</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#11131a"/><stop offset="1" stop-color="#443b91"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#71f6c7" stop-opacity=".7"/><stop offset="1" stop-color="#71f6c7" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="940" cy="120" r="180" fill="url(#glow)"/>
+  <g fill="none" stroke="#71f6c7" stroke-opacity=".35" stroke-width="2">
+    <path d="M785 155 980 225 890 415 690 350Z"/><path d="M785 155 890 415M980 225 690 350"/>
+  </g>
+  <g fill="#71f6c7"><circle cx="785" cy="155" r="12"/><circle cx="980" cy="225" r="16"/><circle cx="890" cy="415" r="10"/><circle cx="690" cy="350" r="14"/></g>
+  <text x="95" y="420" fill="#fff" font-family="Arial, sans-serif" font-size="250" font-weight="700" letter-spacing="-18">4</text>
+  <text x="330" y="410" fill="#fff" font-family="Arial, sans-serif" font-size="105" font-weight="700" letter-spacing="18">CUBES</text>
+  <text x="105" y="520" fill="#cbd2d0" font-family="Arial, sans-serif" font-size="28" letter-spacing="5">COLLABORATIVE · SWARM · XR · SPATIAL AUDIO</text>
+</svg>
