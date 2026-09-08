@@ -4,6 +4,8 @@
 MusicGen-Rhythm explores rhythm-aware conditioning strategies for text-to-music generation by extending **MusicGen-Small** with **audio-derived rhythmic representations**.  
 The project investigates whether explicit rhythmic cues extracted from audio can improve temporal coherence and rhythmic stability beyond text-only prompting, while keeping the MusicGen backbone frozen.
 
+[Explore the audio demo ↗](https://anonymous-eval-01.github.io/audio-demo/){ .md-button .md-button--primary target="_blank" rel="noopener" }
+
 ---
 
 ## Motivation
@@ -111,11 +113,25 @@ This loss design enables rhythm-aware learning while preserving the stability an
 ## Experimental Setup (Summary)
 
 - Backbone: *facebook/musicgen-small* (frozen)  
-- Audio: 32 kHz, 30-second clips  
-- Training & evaluation: Google Colab A100 High RAM (GPU)  
+- Dataset: 500 songs, yielding 1,500 energy-aware 30-second clips
+- Split: 70% / 15% / 15% at the song level to prevent leakage
+- Conditioning audio: peak-normalized, mono, and resampled to 16 kHz
+- Training & evaluation: Google Colab Pro, NVIDIA A100 40 GB High-RAM runtime
+- Metrics: BeatF, BeatAlignErr, TempoStab, CrossBarCons, CLAP, and FAD
 
-Quantitative evaluations and ablation studies are reported in the accompanying paper under preparation.  
-(Detailed results will be added to this page after publication.)
+---
+
+## Results
+
+Audio-derived rhythm conditioning improves beat-level structure without materially reducing audio quality. Compared with the frozen MusicGen-Small baseline, the two SimpleNet variants without auxiliary beat-energy loss improve all four rhythm metrics. **SimpleNet-G** reduces beat-alignment error by 19.7% and improves tempo stability by 15.6%, while **SimpleNet-X** improves BeatF by 7.6% and cross-bar consistency by 10.1%.
+
+The experiments also show that a compact, task-specific rhythm encoder is more effective than the larger pretrained CNN14 backbone for this setting. Gating generally provides the strongest balance between rhythmic control and semantic fidelity because its residual path preserves the text-dominant representation expected by the frozen decoder.
+
+Auxiliary beat- and energy-coherence losses produce a more nuanced result. They can strengthen global rhythmic regularity—the best BeatF improves by 8.8%, and the best cross-bar consistency improves by 16.3%—but they worsen absolute beat alignment and can reduce CLAP similarity. This indicates that feature-level conditioning is currently more reliable than auxiliary coherence supervision for rhythm control with a frozen text-to-music decoder.
+
+![Objective evaluation across MusicGen-Rhythm variants](Fig/musicgen_rhythm/Table2_Result.png)
+
+These findings are reported in the accompanying manuscript, which is currently under review. A controlled listening study remains future work.
 
 ---
 
@@ -134,7 +150,18 @@ These directions aim to further explore how explicit rhythmic structure can supp
 
 - Core architecture and training pipeline completed  
 - Objective evaluation finalized  
-- Paper submission in preparation  
 
-> *This page presents methodological design only.  
-Results and conclusions may change after published.*
+
+
+<p class="musicgen-rhythm-credits"><strong>Researchers</strong><br>Changda Ma · Govinda Madhava BS · Lennon Seiders · Sunshiyu Wang<br><small>Georgia Institute of Technology · 2026</small></p>
+
+<details class="draft-request">
+  <summary><span>Research paper <b>1</b></span><span class="draft-request-chevron" aria-hidden="true"></span></summary>
+  <div class="draft-request-list">
+    <article>
+      <div><small>Research manuscript</small><strong>MusicGen-Rhythm: Extending MusicGen with Audio-Derived Beat- and Tempo-Aware Conditioning</strong></div>
+      <a href="mailto:cma326@gatech.edu?subject=Request%20for%20MusicGen-Rhythm%20Paper&body=Hello%20Changda%2C%0A%0AI%20would%20like%20to%20request%20the%20MusicGen-Rhythm%20paper.%0A%0AThank%20you.">Request PDF ↗</a>
+    </article>
+    <p>The manuscript is available by email while it is under review.</p>
+  </div>
+</details>

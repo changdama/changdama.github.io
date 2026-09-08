@@ -52,6 +52,8 @@ nav:
       - Interactive Sound, XR Experience and Spatial Audio:
           - 4CUBES: projects/music_tech/4cubes.md
           - "Immersive Open Studio: Shared Space, Shared Sound": projects/music_tech/spatial_audio.md
+          - "Four Environments: An Interactive Spatial Audio Composition": projects/music_tech/spatial_audio_composition.md
+          - Resonance: projects/music_tech/resonance.md
           - COSMIC PULSES: projects/music_tech/COSMIC_PULSES.md
           - Music Hide: projects/music_tech/music_hide.md
       - AI for Music:

@@ -79,6 +79,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#deep-salient-detection-for-f0-estimation" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -565,6 +570,10 @@
       
         
       
+        
+      
+        
+      
     
     
     
@@ -656,6 +665,62 @@
     
   
     Immersive Open Studio: Shared Space, Shared Sound
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../spatial_audio_composition/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Four Environments: An Interactive Spatial Audio Composition
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../resonance/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Resonance
   
 
     
@@ -837,6 +902,26 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Deep Salient Detection for F0 Estimation
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -854,6 +939,130 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#from-waveform-to-melody-contour" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        From waveform to melody contour
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#three-competing-approaches" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Three competing approaches
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Three competing approaches">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#autocorrelation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Autocorrelation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#simplenet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SimpleNet
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resnet-18" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ResNet-18
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#training-study" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Training study
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#evaluation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Evaluation
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-the-comparison-reveals" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What the comparison reveals
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scope-and-next-steps" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Scope and next steps
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -2744,6 +2953,121 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#from-waveform-to-melody-contour" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        From waveform to melody contour
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#three-competing-approaches" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Three competing approaches
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Three competing approaches">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#autocorrelation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Autocorrelation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#simplenet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SimpleNet
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resnet-18" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ResNet-18
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#training-study" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Training study
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#evaluation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Evaluation
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-the-comparison-reveals" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What the comparison reveals
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scope-and-next-steps" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Scope and next steps
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -2760,9 +3084,154 @@
 
 
 
-  <h1>Deep Salient Detection for F0 Estimation</h1>
-
-
+<div class="f0-page">
+<p class="f0-kicker">Audio AI · Pitch tracking · Course research · 2025</p>
+<h1 id="deep-salient-detection-for-f0-estimation">Deep Salient Detection for F0 Estimation<a class="headerlink" href="#deep-salient-detection-for-f0-estimation" title="Permanent link">&para;</a></h1>
+<p><strong>Can a compact, audio-specific network estimate singing pitch more reliably than a rule-based tracker or a large pretrained vision model?</strong></p>
+<p>This project replicates a deep salience approach to fundamental-frequency (F0) estimation and extends it through a controlled comparison of three strategies: an autocorrelation baseline, a fully convolutional <strong>SimpleNet</strong>, and transfer learning with <strong>ResNet-18</strong>. The system transforms audio into a harmonic time–frequency representation, predicts a dense pitch-salience map, and decodes that map into a frame-wise melody contour.</p>
+<div class="f0-stats">
+<div><strong>81.58%</strong><span>best overall accuracy</span></div>
+<div><strong>1.54%</strong><span>voicing false alarms</span></div>
+<div><strong>6</strong><span>HCQT harmonic channels</span></div>
+<div><strong>60</strong><span>bins per octave</span></div>
+</div>
+<h2 id="from-waveform-to-melody-contour">From waveform to melody contour<a class="headerlink" href="#from-waveform-to-melody-contour" title="Permanent link">&para;</a></h2>
+<div aria-label="F0 estimation pipeline" class="f0-flow">
+<div><b>Audio</b><small>44.1 kHz waveform</small></div><i>→</i>
+  <div><b>HCQT</b><small>6 × 360 × T</small></div><i>→</i>
+  <div><b>Salience model</b><small>pitch likelihood map</small></div><i>→</i>
+  <div><b>Decoder</b><small>frame-wise F0 contour</small></div>
+</div>
+<p>The input is a <strong>Harmonic Constant-Q Transform (HCQT)</strong> designed to expose the harmonic structure of pitched sound. Six CQT channels are computed using harmonic factors (h \in {0.5, 1, 2, 3, 4, 5}), beginning at C1 (approximately 32.7 Hz), spanning six octaves at 60 bins per octave, and advancing with a 512-sample hop. Stacking these channels produces a (6 \times 360 \times T) tensor.</p>
+<p>Ground-truth F0 annotations are quantized onto the same frequency grid and Gaussian-blurred across neighboring bins. This creates a smooth target salience profile that does not over-penalize small pitch deviations.</p>
+<h2 id="three-competing-approaches">Three competing approaches<a class="headerlink" href="#three-competing-approaches" title="Permanent link">&para;</a></h2>
+<div class="f0-models">
+<div>
+<p><span>01 · RULE BASED</span></p>
+<h3 id="autocorrelation">Autocorrelation<a class="headerlink" href="#autocorrelation" title="Permanent link">&para;</a></h3>
+<p>Operates directly on waveform frames and selects periodicity peaks. It detects voiced activity aggressively, but has no strong mechanism for rejecting unvoiced frames.</p>
+</div>
+<div class="f0-model-best">
+<p><span>02 · TASK SPECIFIC</span></p>
+<h3 id="simplenet">SimpleNet<a class="headerlink" href="#simplenet" title="Permanent link">&para;</a></h3>
+<p>Three convolutional layers with batch normalization and ReLU preserve the full time–frequency resolution. A final (1 \times 1) convolution predicts one salience value per bin without pooling away pitch location.</p>
+</div>
+<div>
+<p><span>03 · TRANSFER LEARNING</span></p>
+<h3 id="resnet-18">ResNet-18<a class="headerlink" href="#resnet-18" title="Permanent link">&para;</a></h3>
+<p>Adapts an ImageNet-pretrained visual backbone to the HCQT input. Frozen and fully fine-tuned variants test whether general image features transfer to spectral salience estimation.</p>
+</div>
+</div>
+<h2 id="training-study">Training study<a class="headerlink" href="#training-study" title="Permanent link">&para;</a></h2>
+<p>SimpleNet is trained from scratch on random 512-frame HCQT crops with a batch size of 8, Adam optimization, and a learning rate of (10^{-3}). ResNet-18 uses a more conservative (10^{-4}) learning rate in both frozen and unfrozen configurations.</p>
+<p>Each architecture is evaluated with binary cross-entropy (BCE) and, where applicable, a hybrid objective:</p>
+<div class="arithmatex">\[
+\mathcal{L}_{\text{hybrid}} =
+\lambda_{\text{BCE}}\mathcal{L}_{\text{BCE}} +
+\lambda_{\text{MSE}}\mathcal{L}_{\text{MSE}},
+\qquad
+\lambda_{\text{BCE}}=1.0,\;\lambda_{\text{MSE}}=0.1.
+\]</div>
+<p>The study uses an artist-independent split of <strong>MedleyDB-Pitch</strong> for training and validation, reserving approximately 20% of tracks for validation to limit timbral overlap. Final evaluation is conducted on the unseen <strong>Vocadito</strong> singing-voice dataset. A threshold sweep selects the salience threshold that maximizes Overall Accuracy.</p>
+<figure class="f0-figure">
+  <img src="/assets/projects/deep_salient_detection.png" alt="Training and validation loss curves for SimpleNet and ResNet-18 configurations over 30 epochs">
+  <figcaption>Training and validation loss across the six neural-network configurations. SimpleNet converges quickly and stably; fine-tuned ResNet variants optimize more effectively than frozen ones but do not translate that convergence into accurate F0 estimates.</figcaption>
+</figure>
+<h2 id="evaluation">Evaluation<a class="headerlink" href="#evaluation" title="Permanent link">&para;</a></h2>
+<p>Performance is measured using standard melody-estimation metrics: Voicing Recall (VR), Voicing False Alarm (VFA), Raw Pitch Accuracy (RPA, within 50 cents), Raw Chroma Accuracy (RCA), and Overall Accuracy (OA).</p>
+<table>
+<thead>
+<tr>
+<th>Model</th>
+<th style="text-align: right;">VR ↑</th>
+<th style="text-align: right;">VFA ↓</th>
+<th style="text-align: right;">RPA ↑</th>
+<th style="text-align: right;">RCA ↑</th>
+<th style="text-align: right;">OA ↑</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Autocorrelation</td>
+<td style="text-align: right;">99.85</td>
+<td style="text-align: right;">70.12</td>
+<td style="text-align: right;">84.09</td>
+<td style="text-align: right;">84.72</td>
+<td style="text-align: right;">65.65</td>
+</tr>
+<tr>
+<td><strong>SimpleNet · BCE</strong></td>
+<td style="text-align: right;"><strong>74.92</strong></td>
+<td style="text-align: right;"><strong>1.54</strong></td>
+<td style="text-align: right;"><strong>72.71</strong></td>
+<td style="text-align: right;"><strong>72.74</strong></td>
+<td style="text-align: right;"><strong>81.58</strong></td>
+</tr>
+<tr>
+<td>SimpleNet · BCE + MSE</td>
+<td style="text-align: right;">72.18</td>
+<td style="text-align: right;">3.18</td>
+<td style="text-align: right;">69.47</td>
+<td style="text-align: right;">69.49</td>
+<td style="text-align: right;">78.95</td>
+</tr>
+<tr>
+<td>ResNet-18 · BCE · frozen</td>
+<td style="text-align: right;">3.43</td>
+<td style="text-align: right;">10.30</td>
+<td style="text-align: right;">0.00</td>
+<td style="text-align: right;">0.15</td>
+<td style="text-align: right;">30.33</td>
+</tr>
+<tr>
+<td>ResNet-18 · BCE · fine-tuned</td>
+<td style="text-align: right;">55.03</td>
+<td style="text-align: right;">23.33</td>
+<td style="text-align: right;">12.93</td>
+<td style="text-align: right;">12.93</td>
+<td style="text-align: right;">34.81</td>
+</tr>
+<tr>
+<td>ResNet-18 · BCE + MSE · frozen</td>
+<td style="text-align: right;">3.43</td>
+<td style="text-align: right;">10.32</td>
+<td style="text-align: right;">0.00</td>
+<td style="text-align: right;">0.15</td>
+<td style="text-align: right;">30.32</td>
+</tr>
+<tr>
+<td>ResNet-18 · BCE + MSE · fine-tuned</td>
+<td style="text-align: right;">54.85</td>
+<td style="text-align: right;">23.56</td>
+<td style="text-align: right;">13.01</td>
+<td style="text-align: right;">13.01</td>
+<td style="text-align: right;">34.78</td>
+</tr>
+</tbody>
+</table>
+<p><small class="f0-table-note">Values are percentages reported as the mean performance on Vocadito; the project report also provides track-level standard deviations.</small></p>
+<h2 id="what-the-comparison-reveals">What the comparison reveals<a class="headerlink" href="#what-the-comparison-reveals" title="Permanent link">&para;</a></h2>
+<p><strong>SimpleNet with BCE is the strongest overall system</strong>, reaching 81.58% OA—15.93 percentage points above autocorrelation—while reducing false voicing detections from 70.12% to 1.54%. Autocorrelation remains strong at finding periodicity and achieves the highest raw pitch score, but its tendency to label unvoiced frames as voiced makes it less reliable as a complete melody tracker. Adding MSE smooths optimization, yet slightly reduces the final accuracy of SimpleNet.</p>
+<p>The ResNet-18 experiments expose a deeper representation mismatch. Visual classifiers are encouraged to recognize a feature wherever it appears in an image. In an HCQT, however, vertical position is frequency: moving a harmonic pattern vertically changes its pitch and therefore its musical meaning. ImageNet filters for edges and textures are poorly aligned with this dense, frequency-sensitive prediction task, and even full fine-tuning does not close the gap.</p>
+<div class="admonition note">
+<p class="admonition-title">Why the smaller network wins</p>
+<p>Model capacity is not the deciding factor here. Preserving pitch location and learning directly from harmonic audio structure matter more than importing a larger visual representation with conflicting inductive biases.</p>
+</div>
+<h2 id="scope-and-next-steps">Scope and next steps<a class="headerlink" href="#scope-and-next-steps" title="Permanent link">&para;</a></h2>
+<p>The experiment establishes a reproducible comparison on singing-voice melody data, but broader evaluation is still needed. Future work can test additional musical sources and recording conditions, examine temporal decoding beyond frame-wise maxima, and explore audio-pretrained representations whose invariances are better matched to pitch.</p>
+<p class="f0-credits"><strong>Researchers</strong><br>Changda Ma · Jiayi Wang<br><small>Georgia Institute of Technology · 2025</small></p>
+<details class="draft-request">
+<summary><span>Project report <b>1</b></span><span class="draft-request-chevron" aria-hidden="true"></span></summary>
+<div class="draft-request-list">
+    <article>
+      <div><small>Course research report</small><strong>Deep Salient Detection for F0 Estimation</strong></div>
+      <a href="mailto:cma326@gatech.edu?subject=Request%20for%20Deep%20Salient%20Detection%20Report&body=Hello%20Changda%2C%0A%0AI%20would%20like%20to%20request%20the%20Deep%20Salient%20Detection%20for%20F0%20Estimation%20report.%0A%0AThank%20you.">Request PDF ↗</a>
+    </article>
+    <p>The project report is available by email.</p>
+  </details>
+</div>
+</details>
+</div>
 
 
 

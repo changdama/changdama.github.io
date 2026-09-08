@@ -13,7 +13,7 @@
 
     A collaborative swarm-based XR musical system for networked spatial performance.  
 
-    **Team:** Canting Zhu, Changda Ma, Tristan Peng, Lana Boudiab
+    **Team:** Changda Ma, Canting Zhu, Tristan Peng, Lana Boudiab
 
     **Instructors:** Henrik von Coler
 
@@ -32,6 +32,32 @@
     **Instructor:** Henrik von Coler
 
     [Learn more](spatial_audio.md)
+
+-   ![Four Environments — REAPER session with four environmental scenes](/assets/projects/spatial-audio-composition/reaper-routing.png){ .project-thumb .spatial-composition-cover }
+
+    **Four Environments: An Interactive Spatial Audio Composition**
+
+    (Course Project)
+
+    A performable third-order Ambisonics composition moving through Water, Valley, City, and Hall sound scenes.
+
+    **Team:** Sunshiyu Wang, Changda Ma
+
+    **Instructors:** Henrik von Coler
+
+    [Learn more](spatial_audio_composition.md)
+
+-   ![Resonance — a runner's biometric signals becoming generative spatial sound](/assets/projects/resonance/resonance-cover.png){ .project-thumb .resonance-cover }
+
+    **Resonance**
+
+    (Shokz Intern Researh)
+
+    A physiology-music closed loop that turns heart rate, breathing, cadence, and HRV into real-time generative music.
+
+    **Researcher:** Changda Ma
+
+    [Learn more](resonance.md)
 
 
 -   ![COSMIC PULSES](/assets/projects/COSMIC_PULSES.png){ .project-thumb }
@@ -68,7 +94,7 @@
 
     Rhythm-aware conditioning for text-to-music audio generation 
 
-    **Team:** Changda Ma, Govinda Madhava BS, Lennon Seiders
+    **Team:** Changda Ma, Govinda Madhava BS, Lennon Seiders, Sunshiyu Wang
 
     **Instructors:** Claire Arthur, Noel Alben (TA) 
 
@@ -79,13 +105,13 @@
 
     **Deep Salient Detection for F0 Estimation** (Course Project)  
 
-    Multi-headset collaborative XR musical instruments and OSC workflows.  
+    HCQT-based deep salience learning for singing-voice pitch tracking, compared with autocorrelation and ResNet-18 transfer learning.  
 
     **Team:** Changda Ma, Jiayi Wang 
 
     **Instructor:** Claire Arthur, Noel Alben (TA)
 
-    [Learn more](xr-instruments.md)
+    [Learn more](Deep_Salient_Detection_for_F0_Estimation.md)
 
 </div>
 ## Music Information Retrieval:
