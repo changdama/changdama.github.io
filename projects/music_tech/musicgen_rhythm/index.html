@@ -570,6 +570,10 @@
       
         
       
+        
+      
+        
+      
     
     
     
@@ -661,6 +665,62 @@
     
   
     Immersive Open Studio: Shared Space, Shared Sound
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../spatial_audio_composition/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Four Environments: An Interactive Spatial Audio Composition
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../resonance/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Resonance
   
 
     
@@ -966,6 +1026,17 @@
     <span class="md-ellipsis">
       
         Experimental Setup (Summary)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#results" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Results
       
     </span>
   </a>
@@ -3030,6 +3101,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#results" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Results
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#future-directions" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -3072,6 +3154,7 @@
 <p><strong>Rhythm-Aware Conditioning for Text-to-Music Generation</strong></p>
 <p>MusicGen-Rhythm explores rhythm-aware conditioning strategies for text-to-music generation by extending <strong>MusicGen-Small</strong> with <strong>audio-derived rhythmic representations</strong>.<br />
 The project investigates whether explicit rhythmic cues extracted from audio can improve temporal coherence and rhythmic stability beyond text-only prompting, while keeping the MusicGen backbone frozen.</p>
+<p><a class="md-button md-button--primary" href="https://anonymous-eval-01.github.io/audio-demo/" rel="noopener" target="_blank">Explore the audio demo ↗</a></p>
 <hr />
 <h2 id="motivation">Motivation<a class="headerlink" href="#motivation" title="Permanent link">&para;</a></h2>
 <p>Text prompts alone often under-specify rhythm and long-term temporal structure.<br />
@@ -3145,11 +3228,19 @@ This work studies how <strong>beat- and energy-aware features</strong> can guide
 <h2 id="experimental-setup-summary">Experimental Setup (Summary)<a class="headerlink" href="#experimental-setup-summary" title="Permanent link">&para;</a></h2>
 <ul>
 <li>Backbone: <em>facebook/musicgen-small</em> (frozen)  </li>
-<li>Audio: 32 kHz, 30-second clips  </li>
-<li>Training &amp; evaluation: Google Colab A100 High RAM (GPU)  </li>
+<li>Dataset: 500 songs, yielding 1,500 energy-aware 30-second clips</li>
+<li>Split: 70% / 15% / 15% at the song level to prevent leakage</li>
+<li>Conditioning audio: peak-normalized, mono, and resampled to 16 kHz</li>
+<li>Training &amp; evaluation: Google Colab Pro, NVIDIA A100 40 GB High-RAM runtime</li>
+<li>Metrics: BeatF, BeatAlignErr, TempoStab, CrossBarCons, CLAP, and FAD</li>
 </ul>
-<p>Quantitative evaluations and ablation studies are reported in the accompanying paper under preparation.<br />
-(Detailed results will be added to this page after publication.)</p>
+<hr />
+<h2 id="results">Results<a class="headerlink" href="#results" title="Permanent link">&para;</a></h2>
+<p>Audio-derived rhythm conditioning improves beat-level structure without materially reducing audio quality. Compared with the frozen MusicGen-Small baseline, the two SimpleNet variants without auxiliary beat-energy loss improve all four rhythm metrics. <strong>SimpleNet-G</strong> reduces beat-alignment error by 19.7% and improves tempo stability by 15.6%, while <strong>SimpleNet-X</strong> improves BeatF by 7.6% and cross-bar consistency by 10.1%.</p>
+<p>The experiments also show that a compact, task-specific rhythm encoder is more effective than the larger pretrained CNN14 backbone for this setting. Gating generally provides the strongest balance between rhythmic control and semantic fidelity because its residual path preserves the text-dominant representation expected by the frozen decoder.</p>
+<p>Auxiliary beat- and energy-coherence losses produce a more nuanced result. They can strengthen global rhythmic regularity—the best BeatF improves by 8.8%, and the best cross-bar consistency improves by 16.3%—but they worsen absolute beat alignment and can reduce CLAP similarity. This indicates that feature-level conditioning is currently more reliable than auxiliary coherence supervision for rhythm control with a frozen text-to-music decoder.</p>
+<p><img alt="Objective evaluation across MusicGen-Rhythm variants" src="../Fig/musicgen_rhythm/Table2_Result.png" /></p>
+<p>These findings are reported in the accompanying manuscript, which is currently under review. A controlled listening study remains future work.</p>
 <hr />
 <h2 id="future-directions">Future Directions<a class="headerlink" href="#future-directions" title="Permanent link">&para;</a></h2>
 <p>Several extensions are planned for future work, including: </p>
@@ -3163,12 +3254,19 @@ This work studies how <strong>beat- and energy-aware features</strong> can guide
 <ul>
 <li>Core architecture and training pipeline completed  </li>
 <li>Objective evaluation finalized  </li>
-<li>Paper submission in preparation  </li>
 </ul>
-<blockquote>
-<p><em>This page presents methodological design only.<br />
-Results and conclusions may change after published.</em></p>
-</blockquote>
+<p class="musicgen-rhythm-credits"><strong>Researchers</strong><br>Changda Ma · Govinda Madhava BS · Lennon Seiders · Sunshiyu Wang<br><small>Georgia Institute of Technology · 2026</small></p>
+
+<details class="draft-request">
+  <summary><span>Research paper <b>1</b></span><span class="draft-request-chevron" aria-hidden="true"></span></summary>
+  <div class="draft-request-list">
+    <article>
+      <div><small>Research manuscript</small><strong>MusicGen-Rhythm: Extending MusicGen with Audio-Derived Beat- and Tempo-Aware Conditioning</strong></div>
+      <a href="mailto:cma326@gatech.edu?subject=Request%20for%20MusicGen-Rhythm%20Paper&body=Hello%20Changda%2C%0A%0AI%20would%20like%20to%20request%20the%20MusicGen-Rhythm%20paper.%0A%0AThank%20you.">Request PDF ↗</a>
+    </article>
+    <p>The manuscript is available by email while it is under review.</p>
+  </div>
+</details>
 
 
 
