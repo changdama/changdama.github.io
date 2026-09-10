@@ -2,7 +2,7 @@
 
 # Music Technology
 
-## Interactive Sound, XR Experience and Spatial Audio:
+## Interactive Sound, XR Experience, Spatial Audio and Sonification:
 
 <div class="grid cards" markdown>
 -   ![4CUBES — Collaborative Swarm-Based XR Musical System](/assets/projects/cube_Index.jpg){ .project-thumb .fourcubes-index-cover }
@@ -19,6 +19,20 @@
 
     [Learn more](4cubes.md)
 
+-   ![Extending Xenakis — sampled spatial points from the Philips Pavilion](/assets/projects/extending-xenakis/sampled-points.webp){ .project-thumb .xenakis-index-cover }
+
+    **Extending Xenakis: From Architectural Geometry to Sonification of the Philips Pavilion**
+
+    (Research Project · Published)
+
+    The Pavilion’s ruled surfaces become orchestral glissandi, density-driven energy blocks, and a synchronized real-time visualization.
+
+    **Authors:** Changda Ma, Sunshiyu Wang, Canting Zhu
+
+    **Instructor:** Alexandria Smith
+
+    [Learn more](extending_xenakis.md)
+
 -   ![Immersive Open Studio: Shared Space, Shared Sound](/assets/projects/spatial_audio.jpg){ .project-thumb }
 
     **Immersive Open Studio: Shared Space, Shared Sound**  
@@ -32,6 +46,16 @@
     **Instructor:** Henrik von Coler
 
     [Learn more](spatial_audio.md)
+
+-   ![COSMIC PULSES](/assets/projects/COSMIC_PULSES.png){ .project-thumb }
+    **COSMIC PULSES**  (Course Project)
+
+    "Sound Architecture Machine"-Using Unity to Explore The Interactive Relationship between Sound, Human Activities and Architecture.  
+    **Team:** Changda Ma, Ruthu Chandrashekar, Yurui Wu, Qufei Hou 
+
+    **Instructors:** Lars Spuijbroek, Frank Clark
+
+    [Learn more](../music_tech/COSMIC_PULSES.md)
 
 -   ![Four Environments — REAPER session with four environmental scenes](/assets/projects/spatial-audio-composition/reaper-routing.png){ .project-thumb .spatial-composition-cover }
 
@@ -59,16 +83,19 @@
 
     [Learn more](resonance.md)
 
+-   ![SynOrbit XR musical sequencer presentation setup](/assets/projects/synorbit/synorbit-hd.jpg){ .project-thumb .synorbit-index-cover }
 
--   ![COSMIC PULSES](/assets/projects/COSMIC_PULSES.png){ .project-thumb }
-    **COSMIC PULSES**  (Course Project)
+    **SynOrbit**
 
-    "Sound Architecture Machine"-Using Unity to Explore The Interactive Relationship between Sound, Human Activities and Architecture.  
-    **Team:** Changda Ma, Ruthu Chandrashekar, Yurui Wu, Qufei Hou 
+    (Ongoing Project · Virtual Musical Instrument)
 
-    **Instructors:** Lars Spuijbroek, Frank Clark
+    A gesture-controlled spatial sequencer that makes musical time visible and performable through rotating orbital structures.
 
-    [Learn more](../music_tech/COSMIC_PULSES.md)
+    **Team:** Sunshiyu Wang, Changda Ma, Canting Zhu, Henrik von Coler
+
+    **My contribution:** Third-person perspective
+
+    [Learn more](synorbit.md)
 
 -   ![Music Hide](/assets/projects/music_hide.png){ .project-thumb }
 
@@ -113,33 +140,62 @@
 
     [Learn more](Deep_Salient_Detection_for_F0_Estimation.md)
 
+
+-   ![Distance-Aware Residual Neural Acoustic Fields architecture](/assets/projects/neural-acoustic-field/architecture.webp){ .project-thumb .naf-index-cover }
+
+    **Distance-Aware Residual Neural Acoustic Fields** (Ongoing Research)
+
+    A physics-informed neural representation that separates distance attenuation from learnable FOA spectral detail.
+
+    **Researcher:** Changda Ma
+
+    [Learn more](distance_aware_neural_acoustic_fields.md)
+
 </div>
 ## Music Information Retrieval:
 
 <div class="grid cards" markdown>
 
--   ![Noise & Sleep Disturbance](../assets/projects/noise-sleep.jpg){ .project-thumb }
-    **Noise & Sleep Disturbance**  
-    Urban noise exposure, sleep disturbance index, and health analytics.  
-    **Team:** Changda Ma, ...  
-    [Learn more](noise-sleep.md)
+-   ![Infinite Jukebox](/assets/projects/infinite-jukebox/cover.webp){ .project-thumb .jukebox-index-cover }
 
--   ![MusicGen-Rhythm](../assets/projects/musicgen-rhythm.jpg){ .project-thumb }
-    **MusicGen-Rhythm**  
-    Rhythm-conditioned text-to-music generation with coherence losses.  
-    **Team:** Changda Ma, ...  
-    [Learn more](musicgen-rhythm.md)
+    **Infinite Jukebox** (Course Project)
 
--   ![XR Instruments](../assets/projects/xr-instruments.jpg){ .project-thumb }
-    **XR Instruments**  
-    Multi-headset collaborative XR musical instruments and OSC workflows.  
-    **Team:** Changda Ma, Alexey Voronin 
-    [Learn more](xr-instruments.md)
+    A structure-aware remix engine that uses self-similarity, novelty, and automatic parameter search to continuously rewrite a song.
+
+    **Team:** Changda Ma, Marcus Parker
+
+    **Instructors:** Claire Arthur
+
+    [Learn more](infinite_jukebox.md)
+
+-   ![Instrument Classification from Audio Features](/assets/projects/instrument-feature-classification/feature-correlation-matrix.png){ .project-thumb .instrument-classification-cover }
+
+    **Instrument Classification from Audio Features** (Course Project)
+
+    An interpretable study of spectral descriptors, kNN, and PCA across flute, piano, trumpet, and violin recordings.
+
+    **Team:** Changda Ma, Lennon Seiders
+
+    **Instructors:** Claire Arthur
+
+    [Learn more](instrument_feature_classification.md)
 
 </div>
 ## Music Symbolic and Perception:
 
 <div class="grid cards" markdown>
+
+-   ![Participant accuracy across the three fragmented-melody conditions](/assets/projects/fragmented-melody/participant-accuracy.png){ .project-thumb .fragmented-melody-cover }
+
+    **Perceiving a Fragmented Melody** (Course Project)
+
+    An exploratory listening study of how timbre and register changes affect auditory integration and melody recognition.
+
+    **Team:** Harper Sun, Tristan Peng, Jacob Westerstahl, Changda Ma
+
+    **Instructor:** Nat Condit-Schultz
+
+    [Learn more](fragmented_melody.md)
 
 -   ![Exploring the Influence of Syncopation and Loudness on Listener Arousal in Music:](/assets/projects/syco.svg){ .project-thumb .thumb-figure }
 
@@ -152,23 +208,6 @@
     **Instructors:** Claire Arthur
 
     [Learn more](../music_tech/Syncopation.md)
-
-
-</div>
-
-## Sonification:
-
-<div class="grid cards" markdown>
-
--   ![Spatial Geometry Sonification](/assets/projects/xnekis.jpg){ .project-thumb }
-
-    **Spatial Geometry Sonification** (Ongoing Research) 
-
-    An experimental research exploring relationships between spatial geometry, midi and real-time visualization system.  
-
-    **Team:** Changda Ma, Sunshiyu Wang, Canting Zhu
-
-    [Learn more](../music_tech/xnekis.md)
 
 
 </div>

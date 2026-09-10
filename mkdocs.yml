@@ -49,24 +49,26 @@ nav:
 
   - Music Technology:
       - Overview: projects/music_tech/index.md
-      - Interactive Sound, XR Experience and Spatial Audio:
+      - Interactive Sound, XR Experience, Spatial Audio and Sonification:
           - 4CUBES: projects/music_tech/4cubes.md
+          - "Extending Xenakis: From Architectural Geometry to Sonification of the Philips Pavilion": projects/music_tech/extending_xenakis.md
           - "Immersive Open Studio: Shared Space, Shared Sound": projects/music_tech/spatial_audio.md
+          - COSMIC PULSES: projects/music_tech/COSMIC_PULSES.md
+          - SynOrbit: projects/music_tech/synorbit.md
           - "Four Environments: An Interactive Spatial Audio Composition": projects/music_tech/spatial_audio_composition.md
           - Resonance: projects/music_tech/resonance.md
-          - COSMIC PULSES: projects/music_tech/COSMIC_PULSES.md
           - Music Hide: projects/music_tech/music_hide.md
       - AI for Music:
           - MusicGen-Rhythm: projects/music_tech/musicgen_rhythm.md
           - Deep Salient Detection for F0 Estimation: projects/music_tech/Deep_Salient_Detection_for_F0_Estimation.md
+          - Distance-Aware Residual Neural Acoustic Fields: projects/music_tech/distance_aware_neural_acoustic_fields.md
 
       - Music Information Retrieval:
-          - Project A: projects/25-sp-project-a.md
-          - Project B: projects/25-sp-project-b.md
+          - Infinite Jukebox: projects/music_tech/infinite_jukebox.md
+          - Instrument Classification from Audio Features: projects/music_tech/instrument_feature_classification.md
       - Music Symbolic and Perception:
+          - Perceiving a Fragmented Melody: projects/music_tech/fragmented_melody.md
           - Exploring the Influence of Syncopation and Loudness on Listener Arousal in Music: projects/music_tech/Syncopation.md
-      - Sonification:
-          - Spatial Geometry Sonification: projects/music_tech/xnekis.md
       - Acoustics:
           - Project A: projects/25-sp-project-a.md
 
