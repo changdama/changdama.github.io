@@ -212,27 +212,37 @@
 
 </div>
 
-## Acoustics:
+## Acoustic plugin, audio software and hardwares:
 
 <div class="grid cards" markdown>
 
--   ![Noise & Sleep Disturbance](../assets/projects/noise-sleep.jpg){ .project-thumb }
-    **Noise & Sleep Disturbance**  
-    Urban noise exposure, sleep disturbance index, and health analytics.  
-    **Team:** Changda Ma, ...  
-    [Learn more](noise-sleep.md)
+-   ![Grasshopper acoustic simulation plugin interface](/assets/projects/acoustic-wellbeing-plugin/plugin-interface.webp){ .project-thumb .acoustic-plugin-index-cover }
 
--   ![MusicGen-Rhythm](../assets/projects/musicgen-rhythm.jpg){ .project-thumb }
-    **MusicGen-Rhythm**  
-    Rhythm-conditioned text-to-music generation with coherence losses.  
-    **Team:** Changda Ma, ...  
-    [Learn more](musicgen-rhythm.md)
+    **Noise & Wellbeing: A Grasshopper Acoustic Simulation Plugin**
 
--   ![XR Instruments](../assets/projects/xr-instruments.jpg){ .project-thumb }
-    **XR Instruments**  
-    Multi-headset collaborative XR musical instruments and OSC workflows.  
-    **Team:** Changda Ma, ...  
-    [Learn more](xr-instruments.md)
+    (Course Project · Plugin Design)
+
+    A spatial design tool that turns building geometry, sound sources, and material properties into noise and wellbeing heat maps.
+
+    **My role:** Plugin design
+
+    **Team:** Lauren Callaway, Aubrey Lassetter, Changda Ma, Carson Pitzer, Rakshitha Satish, Breno Veiga, Ziyuan Ye
+
+    [Learn more](acoustic_wellbeing_plugin.md)
+
+-   ![PocketGranules multihead granular synthesizer interface](/assets/projects/pocketgranules/interface.webp){ .project-thumb .pocketgranules-index-cover }
+
+    **PocketGranules: Multihead Granulator**
+
+    (Audio Software · Open Source)
+
+    A real-time five-head granular synthesizer with per-head effects and a flexible modulation system, built with JUCE and C++.
+
+    **My role:** DSP filter design and LFO design
+
+    **Team:** Ishaan Jagyasi (Team Leader), Caleb Adams, Youhan Li, Changda Ma, Sunshiyu Wang
+
+    [Learn more](pocketgranules.md)
 
 </div>
 

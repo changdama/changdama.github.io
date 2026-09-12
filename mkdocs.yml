@@ -69,8 +69,9 @@ nav:
       - Music Symbolic and Perception:
           - Perceiving a Fragmented Melody: projects/music_tech/fragmented_melody.md
           - Exploring the Influence of Syncopation and Loudness on Listener Arousal in Music: projects/music_tech/Syncopation.md
-      - Acoustics:
-          - Project A: projects/25-sp-project-a.md
+      - "Acoustic plugin, audio software and hardwares:":
+          - "Noise & Wellbeing: A Grasshopper Acoustic Simulation Plugin": projects/music_tech/acoustic_wellbeing_plugin.md
+          - "PocketGranules: Multihead Granulator": projects/music_tech/pocketgranules.md
 
   - Audio Mixing and Recordings:
       - Overview: projects/Audio_Mixing_and_Recordings/index.md
