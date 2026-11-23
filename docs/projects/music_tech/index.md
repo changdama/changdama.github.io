@@ -244,6 +244,22 @@
 
     [Learn more](pocketgranules.md)
 
+-   ![RealSense tracking, spatial sound energy, and responsive hardware test](/assets/projects/spatial-feedback-installation/one-person-poster.webp){ .project-thumb .spatial-feedback-index-cover }
+
+    **Visual and Spatial Sound-Driven Physical Feedback Installation**
+
+    (Ongoing Research · ARCH8833 · 2026–Present)
+
+    A multimodal installation that maps human movement and spatial sound energy to the deformation of a six-servo flexible structure.
+
+    **My role:** Project Lead · Interaction system design · Prototype development
+
+    **Team:** Changda Ma, Soumil Majhi
+
+    **Instructor:** [Misri Patel](https://www.kent.edu/caed/misri-patel)
+
+    [Learn more](spatial_feedback_installation.md)
+
 </div>
 
 

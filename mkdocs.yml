@@ -72,6 +72,7 @@ nav:
       - "Acoustic plugin, audio software and hardwares:":
           - "Noise & Wellbeing: A Grasshopper Acoustic Simulation Plugin": projects/music_tech/acoustic_wellbeing_plugin.md
           - "PocketGranules: Multihead Granulator": projects/music_tech/pocketgranules.md
+          - "Visual and Spatial Sound-Driven Physical Feedback Installation": projects/music_tech/spatial_feedback_installation.md
 
   - Audio Mixing and Recordings:
       - Overview: projects/Audio_Mixing_and_Recordings/index.md
